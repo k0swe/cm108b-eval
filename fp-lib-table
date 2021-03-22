@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name CM108)(type KiCad)(uri ${KIPRJMOD}/Libraries/CM108)(options "")(descr ""))
+  (lib (name usb-a-edge)(type KiCad)(uri ${KIPRJMOD}/Libraries/usb-a-edge.pretty)(options "")(descr ""))
+)
