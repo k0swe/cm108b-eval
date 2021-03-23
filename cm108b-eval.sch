@@ -29,20 +29,6 @@ F 7 "Symmetry" H 5600 3400 50  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_A JP2
-U 1 1 6057963A
-P 1350 2850
-F 0 "JP2" H 1407 3317 50  0000 C CNN
-F 1 "USB_A" H 1407 3226 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 1500 2800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/276/0473460001_IO_CONNECTORS-229243.pdf" H 1500 2800 50  0001 C CNN
-F 4 "0.95" H 1407 3417 50  0001 C CNN "Price"
-F 5 "538-47346-0001" H 1407 3417 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 1407 3417 50  0001 C CNN "Vendor"
-	1    1350 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 60589063
 P 4900 5500
@@ -51,17 +37,6 @@ F 1 "GND" H 4905 5327 50  0001 C CNN
 F 2 "" H 4900 5500 50  0001 C CNN
 F 3 "" H 4900 5500 50  0001 C CNN
 	1    4900 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 6058A2AB
-P 1350 3600
-F 0 "#PWR0102" H 1350 3350 50  0001 C CNN
-F 1 "GND" H 1355 3427 50  0001 C CNN
-F 2 "" H 1350 3600 50  0001 C CNN
-F 3 "" H 1350 3600 50  0001 C CNN
-	1    1350 3600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -206,16 +181,16 @@ $EndComp
 $Comp
 L Device:L_Core_Ferrite L2
 U 1 1 6059FDC7
-P 1350 3400
-F 0 "L2" H 1438 3446 50  0000 L CNN
-F 1 "L" H 1438 3355 50  0000 L CNN
-F 2 "Inductor_SMD:L_1210_3225Metric" H 1350 3400 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/336/W719-1480588.pdf" H 1350 3400 50  0001 C CNN
-F 4 "0.92" H 1438 3546 50  0001 C CNN "Price"
-F 5 "673-PE1210CCMC161STS" H 1438 3546 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 1438 3546 50  0001 C CNN "Vendor"
-	1    1350 3400
-	1    0    0    -1  
+P 1200 3450
+F 0 "L2" H 1288 3496 50  0000 L CNN
+F 1 "L" H 1288 3405 50  0000 L CNN
+F 2 "Inductor_SMD:L_1210_3225Metric" H 1200 3450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/336/W719-1480588.pdf" H 1200 3450 50  0001 C CNN
+F 4 "0.92" H 1288 3596 50  0001 C CNN "Price"
+F 5 "673-PE1210CCMC161STS" H 1288 3596 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 1288 3596 50  0001 C CNN "Vendor"
+	1    1200 3450
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR01
@@ -932,17 +907,9 @@ Wire Wire Line
 Wire Wire Line
 	2000 2850 2300 2850
 Wire Wire Line
-	1350 3600 1350 3550
-Wire Wire Line
 	1850 3600 1850 3350
 Wire Wire Line
 	2000 3600 2000 3350
-Wire Wire Line
-	1250 3250 1250 3400
-Wire Wire Line
-	1250 3400 1200 3400
-Wire Wire Line
-	1200 3400 1200 3600
 Wire Wire Line
 	9300 5150 9400 5150
 Wire Wire Line
@@ -1196,4 +1163,35 @@ NoConn ~ 4050 4850
 NoConn ~ 4050 4950
 NoConn ~ 4050 5050
 NoConn ~ 4050 5150
+$Comp
+L power:GND #PWR?
+U 1 1 605F61ED
+P 1350 3600
+F 0 "#PWR?" H 1350 3350 50  0001 C CNN
+F 1 "GND" H 1355 3427 50  0001 C CNN
+F 2 "" H 1350 3600 50  0001 C CNN
+F 3 "" H 1350 3600 50  0001 C CNN
+	1    1350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_A JP2
+U 1 1 6057963A
+P 1350 2850
+F 0 "JP2" H 1407 3317 50  0000 C CNN
+F 1 "USB_A" H 1407 3226 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 1500 2800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/276/0473460001_IO_CONNECTORS-229243.pdf" H 1500 2800 50  0001 C CNN
+F 4 "0.95" H 1407 3417 50  0001 C CNN "Price"
+F 5 "538-47346-0001" H 1407 3417 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 1407 3417 50  0001 C CNN "Vendor"
+	1    1350 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 3250 1350 3600
+Wire Wire Line
+	1250 3250 1250 3300
+Wire Wire Line
+	1250 3300 1200 3300
 $EndSCHEMATC
