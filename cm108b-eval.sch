@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "CM108B Evaluation Board"
-Date "2021-03-23"
-Rev "2"
+Date "2021-04-03"
+Rev "3"
 Comp "Chris Keller"
 Comment1 ""
 Comment2 ""
