@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "CM108B Evaluation Board"
-Date "2021-04-05"
-Rev "3"
+Date "2021-04-09"
+Rev "J1"
 Comp "Chris Keller"
 Comment1 ""
 Comment2 ""
@@ -20,11 +20,13 @@ P 4250 3100
 F 0 "IC1" H 5600 3300 50  0000 C CNN
 F 1 "CM108B" H 5600 3200 50  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5800 3600 50  0001 L CNN
-F 3 "https://www.cmedia.com.tw/support/download_center/38" H 5800 3500 50  0001 L CNN
-F 4 "CM108B USB Audio" H 5800 3400 50  0001 L CNN "Description"
-F 5 "1.64" H 5600 3400 50  0001 C CNN "Price"
-F 6 "CM108B" H 5600 3400 50  0001 C CNN "Vendor Part #"
-F 7 "Symmetry" H 5600 3400 50  0001 C CNN "Vendor"
+F 3 "https://datasheet.lcsc.com/szlcsc/1902141615_Cmedia-CM108B_C371347.pdf" H 5800 3500 50  0001 L CNN
+F 4 "" H 5800 3400 50  0001 L CNN "Description"
+F 5 "" H 5600 3400 50  0001 C CNN "Price"
+F 6 "" H 5600 3400 50  0001 C CNN "Vendor Part #"
+F 7 "" H 5600 3400 50  0001 C CNN "Vendor"
+F 8 "Extended" H 4250 3100 50  0001 C CNN "LCSC Basic or Extended"
+F 9 "C371347" H 4250 3100 50  0001 C CNN "LCSC Part #"
 	1    4250 3100
 	1    0    0    -1  
 $EndComp
@@ -80,9 +82,11 @@ F 0 "TP1" V 3847 3898 50  0000 C CNN
 F 1 "Test_3V3" V 3756 3898 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3650 3850 50  0001 C CNN
 F 3 "-" H 3650 3850 50  0001 C CNN
-F 4 "0" H 3847 3998 50  0001 C CNN "Price"
-F 5 "-" H 3847 3998 50  0001 C CNN "Vendor Part #"
-F 6 "-" H 3847 3998 50  0001 C CNN "Vendor"
+F 4 "" H 3847 3998 50  0001 C CNN "Price"
+F 5 "" H 3847 3998 50  0001 C CNN "Vendor Part #"
+F 6 "" H 3847 3998 50  0001 C CNN "Vendor"
+F 7 "-" H 3450 3850 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "-" H 3450 3850 50  0001 C CNN "LCSC Part #"
 	1    3450 3850
 	0    -1   -1   0   
 $EndComp
@@ -92,11 +96,13 @@ U 1 1 60591313
 P 2400 2850
 F 0 "R2" V 2195 2850 50  0000 C CNN
 F 1 "22Ω" V 2286 2850 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" H 2400 2850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C301-1488782.pdf" H 2400 2850 50  0001 C CNN
-F 4 "0.17" H 2195 2950 50  0001 C CNN "Price"
-F 5 "667-ERJ-14YJ220U" H 2195 2950 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 2195 2950 50  0001 C CNN "Vendor"
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2400 2850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF220JT5E_C23345.pdf" H 2400 2850 50  0001 C CNN
+F 4 "" H 2195 2950 50  0001 C CNN "Price"
+F 5 "" H 2195 2950 50  0001 C CNN "Vendor Part #"
+F 6 "" H 2195 2950 50  0001 C CNN "Vendor"
+F 7 "Basic" H 2400 2850 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C23345" H 2400 2850 50  0001 C CNN "LCSC Part #"
 	1    2400 2850
 	0    1    1    0   
 $EndComp
@@ -106,11 +112,13 @@ U 1 1 60591B73
 P 2400 2950
 F 0 "R1" V 2513 2950 50  0000 C CNN
 F 1 "22Ω" V 2604 2950 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" H 2400 2950 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C301-1488782.pdf" H 2400 2950 50  0001 C CNN
-F 4 "0.17" H 2513 3050 50  0001 C CNN "Price"
-F 5 "667-ERJ-14YJ220U" H 2513 3050 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 2513 3050 50  0001 C CNN "Vendor"
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2400 2950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF220JT5E_C23345.pdf" H 2400 2950 50  0001 C CNN
+F 4 "" H 2513 3050 50  0001 C CNN "Price"
+F 5 "" H 2513 3050 50  0001 C CNN "Vendor Part #"
+F 6 "" H 2513 3050 50  0001 C CNN "Vendor"
+F 7 "Basic" H 2400 2950 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C23345" H 2400 2950 50  0001 C CNN "LCSC Part #"
 	1    2400 2950
 	0    1    1    0   
 $EndComp
@@ -120,11 +128,13 @@ U 1 1 60596910
 P 1850 3250
 F 0 "C3" H 1650 3300 50  0000 L CNN
 F 1 "100pF" H 1750 3200 50  0000 R CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 1850 3250 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1007_X8R_ULTRA_150C_SMD-1102703.pdf" H 1850 3250 50  0001 C CNN
-F 4 "0.28" H 1650 3400 50  0001 C CNN "Price"
-F 5 "80-C1210C101K3HACTU" H 1650 3400 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 1650 3400 50  0001 C CNN "Vendor"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1850 3250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10C101JB8NNNC_C14858.pdf" H 1850 3250 50  0001 C CNN
+F 4 "" H 1650 3400 50  0001 C CNN "Price"
+F 5 "" H 1650 3400 50  0001 C CNN "Vendor Part #"
+F 6 "" H 1650 3400 50  0001 C CNN "Vendor"
+F 7 "Basic" H 1850 3250 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C14858" H 1850 3250 50  0001 C CNN "LCSC Part #"
 	1    1850 3250
 	1    0    0    -1  
 $EndComp
@@ -134,11 +144,13 @@ U 1 1 60596E1E
 P 2000 3250
 F 0 "C4" H 2092 3296 50  0000 L CNN
 F 1 "100pF" H 2092 3205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 2000 3250 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1007_X8R_ULTRA_150C_SMD-1102703.pdf" H 2000 3250 50  0001 C CNN
-F 4 "0.28" H 2092 3396 50  0001 C CNN "Price"
-F 5 "80-C1210C101K3HACTU" H 2092 3396 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 2092 3396 50  0001 C CNN "Vendor"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2000 3250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10C101JB8NNNC_C14858.pdf" H 2000 3250 50  0001 C CNN
+F 4 "" H 2092 3396 50  0001 C CNN "Price"
+F 5 "" H 2092 3396 50  0001 C CNN "Vendor Part #"
+F 6 "" H 2092 3396 50  0001 C CNN "Vendor"
+F 7 "Basic" H 2000 3250 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C14858" H 2000 3250 50  0001 C CNN "LCSC Part #"
 	1    2000 3250
 	1    0    0    -1  
 $EndComp
@@ -169,12 +181,14 @@ L Device:L_Core_Ferrite L1
 U 1 1 6059B333
 P 1900 2650
 F 0 "L1" V 2125 2650 50  0000 C CNN
-F 1 "L" V 2034 2650 50  0000 C CNN
-F 2 "Inductor_SMD:L_1210_3225Metric" H 1900 2650 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/336/W719-1480588.pdf" H 1900 2650 50  0001 C CNN
-F 4 "0.92" H 2125 2750 50  0001 C CNN "Price"
-F 5 "673-PE1210CCMC161STS" H 2125 2750 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 2125 2750 50  0001 C CNN "Vendor"
+F 1 "FerriteBead" V 2034 2650 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 1900 2650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Sunlord-HPZ1608E152-R50TF_C341252.pdf" H 1900 2650 50  0001 C CNN
+F 4 "" H 2125 2750 50  0001 C CNN "Price"
+F 5 "" H 2125 2750 50  0001 C CNN "Vendor Part #"
+F 6 "" H 2125 2750 50  0001 C CNN "Vendor"
+F 7 "Extended" H 1900 2650 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C341252" H 1900 2650 50  0001 C CNN "LCSC Part #"
 	1    1900 2650
 	0    -1   -1   0   
 $EndComp
@@ -183,12 +197,14 @@ L Device:L_Core_Ferrite L2
 U 1 1 6059FDC7
 P 1200 3450
 F 0 "L2" H 1288 3496 50  0000 L CNN
-F 1 "L" H 1288 3405 50  0000 L CNN
-F 2 "Inductor_SMD:L_1210_3225Metric" H 1200 3450 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/336/W719-1480588.pdf" H 1200 3450 50  0001 C CNN
-F 4 "0.92" H 1288 3596 50  0001 C CNN "Price"
-F 5 "673-PE1210CCMC161STS" H 1288 3596 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 1288 3596 50  0001 C CNN "Vendor"
+F 1 "FerriteBead" H 1288 3405 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 1200 3450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Sunlord-HPZ1608E152-R50TF_C341252.pdf" H 1200 3450 50  0001 C CNN
+F 4 "" H 1288 3596 50  0001 C CNN "Price"
+F 5 "" H 1288 3596 50  0001 C CNN "Vendor Part #"
+F 6 "" H 1288 3596 50  0001 C CNN "Vendor"
+F 7 "Extended" H 1200 3450 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C341252" H 1200 3450 50  0001 C CNN "LCSC Part #"
 	1    1200 3450
 	-1   0    0    1   
 $EndComp
@@ -210,10 +226,12 @@ P 8950 1550
 F 0 "D1" H 8943 1295 50  0000 C CNN
 F 1 "OPER" H 8943 1386 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 8950 1550 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/150060RS75000-1715052.pdf" H 8950 1550 50  0001 C CNN
-F 4 "0.15" H 8943 1395 50  0001 C CNN "Price"
-F 5 "710-150060RS75000" H 8943 1395 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8943 1395 50  0001 C CNN "Vendor"
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" H 8950 1550 50  0001 C CNN
+F 4 "" H 8943 1395 50  0001 C CNN "Price"
+F 5 "" H 8943 1395 50  0001 C CNN "Vendor Part #"
+F 6 "" H 8943 1395 50  0001 C CNN "Vendor"
+F 7 "Basic" H 8950 1550 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C2286" H 8950 1550 50  0001 C CNN "LCSC Part #"
 	1    8950 1550
 	-1   0    0    1   
 $EndComp
@@ -224,10 +242,12 @@ P 8950 1950
 F 0 "D2" H 8943 1695 50  0000 C CNN
 F 1 "REC_MUTE" H 8943 1786 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 8950 1950 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/150060RS75000-1715052.pdf" H 8950 1950 50  0001 C CNN
-F 4 "0.15" H 8943 1795 50  0001 C CNN "Price"
-F 5 "710-150060RS75000" H 8943 1795 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8943 1795 50  0001 C CNN "Vendor"
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" H 8950 1950 50  0001 C CNN
+F 4 "" H 8943 1795 50  0001 C CNN "Price"
+F 5 "" H 8943 1795 50  0001 C CNN "Vendor Part #"
+F 6 "" H 8943 1795 50  0001 C CNN "Vendor"
+F 7 "Basic" H 8950 1950 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C2286" H 8950 1950 50  0001 C CNN "LCSC Part #"
 	1    8950 1950
 	-1   0    0    1   
 $EndComp
@@ -237,11 +257,13 @@ U 1 1 605CF443
 P 8700 1550
 F 0 "R11" V 8495 1550 50  0000 C CNN
 F 1 "330Ω" V 8586 1550 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" H 8700 1550 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/418/4/NG_DS_1773204-3_1-1358553.pdf" H 8700 1550 50  0001 C CNN
-F 4 "0.13" H 8495 1650 50  0001 C CNN "Price"
-F 5 "279-CRGCQ1210J330R" H 8495 1650 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8495 1650 50  0001 C CNN "Vendor"
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8700 1550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF3300T5E_C23138.pdf" H 8700 1550 50  0001 C CNN
+F 4 "" H 8495 1650 50  0001 C CNN "Price"
+F 5 "" H 8495 1650 50  0001 C CNN "Vendor Part #"
+F 6 "" H 8495 1650 50  0001 C CNN "Vendor"
+F 7 "Basic" H 8700 1550 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C23138" H 8700 1550 50  0001 C CNN "LCSC Part #"
 	1    8700 1550
 	0    1    1    0   
 $EndComp
@@ -251,11 +273,13 @@ U 1 1 605CF844
 P 8700 1950
 F 0 "R12" V 8495 1950 50  0000 C CNN
 F 1 "330Ω" V 8586 1950 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" H 8700 1950 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/418/4/NG_DS_1773204-3_1-1358553.pdf" H 8700 1950 50  0001 C CNN
-F 4 "0.13" H 8495 2050 50  0001 C CNN "Price"
-F 5 "279-CRGCQ1210J330R" H 8495 2050 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8495 2050 50  0001 C CNN "Vendor"
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8700 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF3300T5E_C23138.pdf" H 8700 1950 50  0001 C CNN
+F 4 "" H 8495 2050 50  0001 C CNN "Price"
+F 5 "" H 8495 2050 50  0001 C CNN "Vendor Part #"
+F 6 "" H 8495 2050 50  0001 C CNN "Vendor"
+F 7 "Basic" H 8700 1950 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C23138" H 8700 1950 50  0001 C CNN "LCSC Part #"
 	1    8700 1950
 	0    1    1    0   
 $EndComp
@@ -299,10 +323,12 @@ P 8950 2350
 F 0 "D3" H 8943 2475 50  0000 C CNN
 F 1 "PWR_DN" H 8943 2566 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 8950 2350 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/150060RS75000-1715052.pdf" H 8950 2350 50  0001 C CNN
-F 4 "0.15" H 8943 2575 50  0001 C CNN "Price"
-F 5 "710-150060RS75000" H 8943 2575 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8943 2575 50  0001 C CNN "Vendor"
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" H 8950 2350 50  0001 C CNN
+F 4 "" H 8943 2575 50  0001 C CNN "Price"
+F 5 "" H 8943 2575 50  0001 C CNN "Vendor Part #"
+F 6 "" H 8943 2575 50  0001 C CNN "Vendor"
+F 7 "Basic" H 8950 2350 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C2286" H 8950 2350 50  0001 C CNN "LCSC Part #"
 	1    8950 2350
 	-1   0    0    1   
 $EndComp
@@ -312,77 +338,37 @@ U 1 1 606255AC
 P 8700 2350
 F 0 "R7" V 8495 2350 50  0000 C CNN
 F 1 "330Ω" V 8586 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" H 8700 2350 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/418/4/NG_DS_1773204-3_1-1358553.pdf" H 8700 2350 50  0001 C CNN
-F 4 "0.13" H 8495 2450 50  0001 C CNN "Price"
-F 5 "279-CRGCQ1210J330R" H 8495 2450 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8495 2450 50  0001 C CNN "Vendor"
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8700 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF3300T5E_C23138.pdf" H 8700 2350 50  0001 C CNN
+F 4 "" H 8495 2450 50  0001 C CNN "Price"
+F 5 "" H 8495 2450 50  0001 C CNN "Vendor Part #"
+F 6 "" H 8495 2450 50  0001 C CNN "Vendor"
+F 7 "Basic" H 8700 2350 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C23138" H 8700 2350 50  0001 C CNN "LCSC Part #"
 	1    8700 2350
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP1
-U 1 1 6063CF0E
-P 2000 5000
-F 0 "JP1" V 1954 5068 50  0000 L CNN
-F 1 "PWRSEL" V 2045 5068 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2000 5000 50  0001 C CNN
-F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 2000 5000 50  0001 C CNN
-F 4 "0.1" H 1954 5168 50  0001 C CNN "Price"
-F 5 "649-1012937890301BLF" H 1954 5168 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 1954 5168 50  0001 C CNN "Vendor"
-	1    2000 5000
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+3V3 #PWR05
 U 1 1 6064094B
-P 2750 4700
-F 0 "#PWR05" H 2750 4550 50  0001 C CNN
-F 1 "+3V3" H 2765 4873 50  0000 C CNN
-F 2 "" H 2750 4700 50  0001 C CNN
-F 3 "" H 2750 4700 50  0001 C CNN
-	1    2750 4700
+P 2650 4650
+F 0 "#PWR05" H 2650 4500 50  0001 C CNN
+F 1 "+3V3" H 2665 4823 50  0000 C CNN
+F 2 "" H 2650 4650 50  0001 C CNN
+F 3 "" H 2650 4650 50  0001 C CNN
+	1    2650 4650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 60642C2C
-P 2550 6350
-F 0 "#PWR04" H 2550 6100 50  0001 C CNN
-F 1 "GND" H 2555 6177 50  0001 C CNN
-F 2 "" H 2550 6350 50  0001 C CNN
-F 3 "" H 2550 6350 50  0001 C CNN
-	1    2550 6350
+P 2600 6550
+F 0 "#PWR04" H 2600 6300 50  0001 C CNN
+F 1 "GND" H 2605 6377 50  0001 C CNN
+F 2 "" H 2600 6550 50  0001 C CNN
+F 3 "" H 2600 6550 50  0001 C CNN
+	1    2600 6550
 	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP3
-U 1 1 60645210
-P 2000 5500
-F 0 "JP3" V 1954 5568 50  0000 L CNN
-F 1 "MODE" V 2045 5568 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2000 5500 50  0001 C CNN
-F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 2000 5500 50  0001 C CNN
-F 4 "0.1" H 1954 5668 50  0001 C CNN "Price"
-F 5 "649-1012937890301BLF" H 1954 5668 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 1954 5668 50  0001 C CNN "Vendor"
-	1    2000 5500
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP4
-U 1 1 6064583B
-P 2000 6000
-F 0 "JP4" V 1954 6068 50  0000 L CNN
-F 1 "MSEL" V 2045 6068 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2000 6000 50  0001 C CNN
-F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 2000 6000 50  0001 C CNN
-F 4 "0.1" H 1954 6168 50  0001 C CNN "Price"
-F 5 "649-1012937890301BLF" H 1954 6168 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 1954 6168 50  0001 C CNN "Vendor"
-	1    2000 6000
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R4
@@ -390,11 +376,13 @@ U 1 1 6066D8B2
 P 3450 2100
 F 0 "R4" V 3563 2100 50  0000 C CNN
 F 1 "0Ω" V 3654 2100 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" H 3450 2100 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/219/RK73Z-1825387.pdf" H 3450 2100 50  0001 C CNN
-F 4 "0.14" H 3563 2200 50  0001 C CNN "Price"
-F 5 "661-RK73Z2ETTD" H 3563 2200 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 3563 2200 50  0001 C CNN "Vendor"
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3450 2100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf" H 3450 2100 50  0001 C CNN
+F 4 "" H 3563 2200 50  0001 C CNN "Price"
+F 5 "" H 3563 2200 50  0001 C CNN "Vendor Part #"
+F 6 "" H 3563 2200 50  0001 C CNN "Vendor"
+F 7 "Basic" H 3450 2100 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C21189" H 3450 2100 50  0001 C CNN "LCSC Part #"
 	1    3450 2100
 	0    1    1    0   
 $EndComp
@@ -404,11 +392,13 @@ U 1 1 6066E946
 P 3700 2200
 F 0 "C7" H 3792 2246 50  0000 L CNN
 F 1 "4.7μF" H 3792 2155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 3700 2200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 3700 2200 50  0001 C CNN
-F 4 "0.35" H 3792 2346 50  0001 C CNN "Price"
-F 5 "963-EMK325B7475MN-T" H 3792 2346 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 3792 2346 50  0001 C CNN "Vendor"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3700 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf" H 3700 2200 50  0001 C CNN
+F 4 "" H 3792 2346 50  0001 C CNN "Price"
+F 5 "" H 3792 2346 50  0001 C CNN "Vendor Part #"
+F 6 "" H 3792 2346 50  0001 C CNN "Vendor"
+F 7 "Basic" H 3700 2200 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C19666" H 3700 2200 50  0001 C CNN "LCSC Part #"
 	1    3700 2200
 	1    0    0    -1  
 $EndComp
@@ -418,11 +408,13 @@ U 1 1 6066F351
 P 4100 2200
 F 0 "C6" H 4192 2246 50  0000 L CNN
 F 1 "100nF" H 4192 2155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 4100 2200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf" H 4100 2200 50  0001 C CNN
-F 4 "0.37" H 4192 2346 50  0001 C CNN "Price"
-F 5 "80-C1210C104K5RAUTO" H 4192 2346 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 4192 2346 50  0001 C CNN "Vendor"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4100 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 4100 2200 50  0001 C CNN
+F 4 "" H 4192 2346 50  0001 C CNN "Price"
+F 5 "" H 4192 2346 50  0001 C CNN "Vendor Part #"
+F 6 "" H 4192 2346 50  0001 C CNN "Vendor"
+F 7 "Basic" H 4100 2200 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C14663" H 4100 2200 50  0001 C CNN "LCSC Part #"
 	1    4100 2200
 	1    0    0    -1  
 $EndComp
@@ -432,11 +424,13 @@ U 1 1 60672A68
 P 3450 2500
 F 0 "R5" V 3563 2500 50  0000 C CNN
 F 1 "0Ω" V 3654 2500 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" H 3450 2500 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/219/RK73Z-1825387.pdf" H 3450 2500 50  0001 C CNN
-F 4 "0.14" H 3563 2600 50  0001 C CNN "Price"
-F 5 "662-RK73Z2ETTD" H 3563 2600 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 3563 2600 50  0001 C CNN "Vendor"
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3450 2500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf" H 3450 2500 50  0001 C CNN
+F 4 "" H 3563 2600 50  0001 C CNN "Price"
+F 5 "" H 3563 2600 50  0001 C CNN "Vendor Part #"
+F 6 "" H 3563 2600 50  0001 C CNN "Vendor"
+F 7 "Basic" H 3450 2500 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C21189" H 3450 2500 50  0001 C CNN "LCSC Part #"
 	1    3450 2500
 	0    1    1    0   
 $EndComp
@@ -446,11 +440,13 @@ U 1 1 60672A6F
 P 3700 2600
 F 0 "C9" H 3792 2646 50  0000 L CNN
 F 1 "4.7μF" H 3792 2555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 3700 2600 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 3700 2600 50  0001 C CNN
-F 4 "0.35" H 3792 2746 50  0001 C CNN "Price"
-F 5 "963-EMK325B7475MN-T" H 3792 2746 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 3792 2746 50  0001 C CNN "Vendor"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3700 2600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf" H 3700 2600 50  0001 C CNN
+F 4 "" H 3792 2746 50  0001 C CNN "Price"
+F 5 "" H 3792 2746 50  0001 C CNN "Vendor Part #"
+F 6 "" H 3792 2746 50  0001 C CNN "Vendor"
+F 7 "Basic" H 3700 2600 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C19666" H 3700 2600 50  0001 C CNN "LCSC Part #"
 	1    3700 2600
 	1    0    0    -1  
 $EndComp
@@ -460,11 +456,13 @@ U 1 1 60672A77
 P 4100 2600
 F 0 "C8" H 4192 2646 50  0000 L CNN
 F 1 "100nF" H 4192 2555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 4100 2600 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf" H 4100 2600 50  0001 C CNN
-F 4 "0.37" H 4192 2746 50  0001 C CNN "Price"
-F 5 "80-C1210C104K5RAUTO" H 4192 2746 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 4192 2746 50  0001 C CNN "Vendor"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4100 2600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 4100 2600 50  0001 C CNN
+F 4 "" H 4192 2746 50  0001 C CNN "Price"
+F 5 "" H 4192 2746 50  0001 C CNN "Vendor Part #"
+F 6 "" H 4192 2746 50  0001 C CNN "Vendor"
+F 7 "Basic" H 4100 2600 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C14663" H 4100 2600 50  0001 C CNN "LCSC Part #"
 	1    4100 2600
 	1    0    0    -1  
 $EndComp
@@ -496,11 +494,13 @@ U 1 1 60697700
 P 3000 1900
 F 0 "C10" H 2909 1946 50  0000 R CNN
 F 1 "100nF" H 2909 1855 50  0000 R CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 3000 1900 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf" H 3000 1900 50  0001 C CNN
-F 4 "0.37" H 2909 2046 50  0001 C CNN "Price"
-F 5 "80-C1210C104K5RAUTO" H 2909 2046 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 2909 2046 50  0001 C CNN "Vendor"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3000 1900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 3000 1900 50  0001 C CNN
+F 4 "" H 2909 2046 50  0001 C CNN "Price"
+F 5 "" H 2909 2046 50  0001 C CNN "Vendor Part #"
+F 6 "" H 2909 2046 50  0001 C CNN "Vendor"
+F 7 "Basic" H 3000 1900 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C14663" H 3000 1900 50  0001 C CNN "LCSC Part #"
 	1    3000 1900
 	1    0    0    -1  
 $EndComp
@@ -521,11 +521,13 @@ U 1 1 606A39C6
 P 6600 3900
 F 0 "C50" V 6855 3900 50  0000 C CNN
 F 1 "470μF" V 6764 3900 50  0000 C CNN
-F 2 "293D477X9010E2TE3:CAPPM7343X430N" H 6638 3750 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/293d-1763499.pdf" H 6600 3900 50  0001 C CNN
-F 4 "1.3" H 6855 4000 50  0001 C CNN "Price"
-F 5 "74-293D477X9010E2TE3" V 6600 3900 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 6855 4000 50  0001 C CNN "Vendor"
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" H 6638 3750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/PANASONIC-2TPE470MAJGB_C147774.pdf" H 6600 3900 50  0001 C CNN
+F 4 "" H 6855 4000 50  0001 C CNN "Price"
+F 5 "" V 6600 3900 50  0001 C CNN "Vendor Part #"
+F 6 "" H 6855 4000 50  0001 C CNN "Vendor"
+F 7 "Extended" H 6600 3900 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C147774" H 6600 3900 50  0001 C CNN "LCSC Part #"
 	1    6600 3900
 	0    -1   -1   0   
 $EndComp
@@ -535,11 +537,13 @@ U 1 1 606A46F9
 P 6900 4000
 F 0 "C51" V 7150 4000 50  0000 C CNN
 F 1 "470μF" V 7050 4000 50  0000 C CNN
-F 2 "293D477X9010E2TE3:CAPPM7343X430N" H 6938 3850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/293d-1763499.pdf" H 6900 4000 50  0001 C CNN
-F 4 "1.3" H 7150 4100 50  0001 C CNN "Price"
-F 5 "74-293D477X9010E2TE3" V 6900 4000 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 7150 4100 50  0001 C CNN "Vendor"
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" H 6938 3850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/PANASONIC-2TPE470MAJGB_C147774.pdf" H 6900 4000 50  0001 C CNN
+F 4 "" H 7150 4100 50  0001 C CNN "Price"
+F 5 "" V 6900 4000 50  0001 C CNN "Vendor Part #"
+F 6 "" H 7150 4100 50  0001 C CNN "Vendor"
+F 7 "Extended" H 6900 4000 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C147774" H 6900 4000 50  0001 C CNN "LCSC Part #"
 	1    6900 4000
 	0    -1   -1   0   
 $EndComp
@@ -549,11 +553,10 @@ U 1 1 606AA603
 P 9100 3950
 F 0 "J1" H 8820 3883 50  0000 R CNN
 F 1 "SPKR" H 8820 3974 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal" H 9100 3950 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/670/sj_352x_smt-1779397.pdf" H 9100 3950 50  0001 C CNN
-F 4 "1.26" H 8820 3983 50  0001 C CNN "Price"
-F 5 "490-SJ3524-SMT-TR-GR" H 9100 3950 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8820 3983 50  0001 C CNN "Vendor"
+F 2 "HRO Electronics:PJ-3900" H 9100 3950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810121713_Korean-Hroparts-Elec-PJ-3900-04_C151839.pdf" H 9100 3950 50  0001 C CNN
+F 4 "Extended" H 9100 3950 50  0001 C CNN "LCSC Basic or Extended"
+F 5 "C151839" H 9100 3950 50  0001 C CNN "LCSC Part #"
 	1    9100 3950
 	-1   0    0    1   
 $EndComp
@@ -574,11 +577,10 @@ U 1 1 606BAC48
 P 9100 4450
 F 0 "J2" H 8820 4383 50  0000 R CNN
 F 1 "MIC" H 8820 4474 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal" H 9100 4450 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/670/sj_352x_smt-1779397.pdf" H 9100 4450 50  0001 C CNN
-F 4 "1.26" H 8820 4483 50  0001 C CNN "Price"
-F 5 "490-SJ3524SMTTRPI" H 9100 4450 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8820 4483 50  0001 C CNN "Vendor"
+F 2 "HRO Electronics:PJ-3900" H 9100 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2012311032_Korean-Hroparts-Elec-PJ-3900-02_C128995.pdf" H 9100 4450 50  0001 C CNN
+F 4 "Extended" H 9100 4450 50  0001 C CNN "LCSC Basic or Extended"
+F 5 "C128995" H 9100 4450 50  0001 C CNN "LCSC Part #"
 	1    9100 4450
 	-1   0    0    1   
 $EndComp
@@ -599,11 +601,13 @@ U 1 1 606E6109
 P 6150 5200
 F 0 "C14" H 6058 5154 50  0000 R CNN
 F 1 "4.7μF" H 6058 5245 50  0000 R CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 6150 5200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 6150 5200 50  0001 C CNN
-F 4 "0.35" H 6058 5254 50  0001 C CNN "Price"
-F 5 "963-EMK325B7475MN-T" H 6058 5254 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 6058 5254 50  0001 C CNN "Vendor"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6150 5200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf" H 6150 5200 50  0001 C CNN
+F 4 "" H 6058 5254 50  0001 C CNN "Price"
+F 5 "" H 6058 5254 50  0001 C CNN "Vendor Part #"
+F 6 "" H 6058 5254 50  0001 C CNN "Vendor"
+F 7 "Basic" H 6150 5200 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C19666" H 6150 5200 50  0001 C CNN "LCSC Part #"
 	1    6150 5200
 	-1   0    0    1   
 $EndComp
@@ -613,11 +617,13 @@ U 1 1 606E9E57
 P 6350 4450
 F 0 "R10" V 6463 4450 50  0000 C CNN
 F 1 "2.2kΩ" V 6554 4450 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" H 6350 4450 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/219/RK73H-1825326.pdf" H 6350 4450 50  0001 C CNN
-F 4 "0.2" H 6463 4550 50  0001 C CNN "Price"
-F 5 "660-RK73H2ETTD2201F" H 6463 4550 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 6463 4550 50  0001 C CNN "Vendor"
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6350 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2201T5E_C4190.pdf" H 6350 4450 50  0001 C CNN
+F 4 "" H 6463 4550 50  0001 C CNN "Price"
+F 5 "" H 6463 4550 50  0001 C CNN "Vendor Part #"
+F 6 "" H 6463 4550 50  0001 C CNN "Vendor"
+F 7 "Basic" H 6350 4450 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C4190" H 6350 4450 50  0001 C CNN "LCSC Part #"
 	1    6350 4450
 	0    1    1    0   
 $EndComp
@@ -627,11 +633,13 @@ U 1 1 606EACAE
 P 6750 4450
 F 0 "R13" V 6863 4450 50  0000 C CNN
 F 1 "1.2kΩ" V 6954 4450 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" H 6750 4450 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 6750 4450 50  0001 C CNN
-F 4 "0.16" H 6863 4550 50  0001 C CNN "Price"
-F 5 "603-RC1210FR-071K2L" H 6863 4550 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 6863 4550 50  0001 C CNN "Vendor"
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6750 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1201T5E_C22765.pdf" H 6750 4450 50  0001 C CNN
+F 4 "" H 6863 4550 50  0001 C CNN "Price"
+F 5 "" H 6863 4550 50  0001 C CNN "Vendor Part #"
+F 6 "" H 6863 4550 50  0001 C CNN "Vendor"
+F 7 "Basic" H 6750 4450 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C22765" H 6750 4450 50  0001 C CNN "LCSC Part #"
 	1    6750 4450
 	0    1    1    0   
 $EndComp
@@ -652,11 +660,13 @@ U 1 1 606EE6F7
 P 6550 5200
 F 0 "C15" H 6458 5154 50  0000 R CNN
 F 1 "4.7μF" H 6458 5245 50  0000 R CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 6550 5200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf" H 6550 5200 50  0001 C CNN
-F 4 "0.35" H 6458 5254 50  0001 C CNN "Price"
-F 5 "963-EMK325B7475MN-T" H 6458 5254 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 6458 5254 50  0001 C CNN "Vendor"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6550 5200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf" H 6550 5200 50  0001 C CNN
+F 4 "" H 6458 5254 50  0001 C CNN "Price"
+F 5 "" H 6458 5254 50  0001 C CNN "Vendor Part #"
+F 6 "" H 6458 5254 50  0001 C CNN "Vendor"
+F 7 "Basic" H 6550 5200 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C19666" H 6550 5200 50  0001 C CNN "LCSC Part #"
 	1    6550 5200
 	-1   0    0    1   
 $EndComp
@@ -677,11 +687,10 @@ U 1 1 6083F728
 P 9600 3150
 F 0 "J3" H 9492 2825 50  0000 C CNN
 F 1 "RADIO_DATA" H 9492 2916 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical" H 9600 3150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/737/4389_C13924-001_CCP-W20-03-BK-SMT-R-A-1708610.pdf" H 9600 3150 50  0001 C CNN
-F 4 "0.35" H 9492 2925 50  0001 C CNN "Price"
-F 5 "485-4389" H 9492 2925 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 9492 2925 50  0001 C CNN "Vendor"
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 9600 3150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811151524_JST-Sales-America-B3B-PH-K-S-LF-SN_C131339.pdf" H 9600 3150 50  0001 C CNN
+F 4 "Extended" H 9600 3150 50  0001 C CNN "LCSC Basic or Extended"
+F 5 "C131339" H 9600 3150 50  0001 C CNN "LCSC Part #"
 	1    9600 3150
 	1    0    0    1   
 $EndComp
@@ -702,11 +711,13 @@ U 1 1 6087D5EF
 P 8550 3050
 F 0 "R3" V 8345 3050 50  0000 C CNN
 F 1 "0Ω" V 8436 3050 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" H 8550 3050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/219/RK73Z-1825387.pdf" H 8550 3050 50  0001 C CNN
-F 4 "0.14" H 8345 3150 50  0001 C CNN "Price"
-F 5 "660-RK73Z2ETTD" H 8345 3150 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8345 3150 50  0001 C CNN "Vendor"
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8550 3050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf" H 8550 3050 50  0001 C CNN
+F 4 "" H 8345 3150 50  0001 C CNN "Price"
+F 5 "" H 8345 3150 50  0001 C CNN "Vendor Part #"
+F 6 "" H 8345 3150 50  0001 C CNN "Vendor"
+F 7 "Basic" H 8550 3050 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C21189" H 8550 3050 50  0001 C CNN "LCSC Part #"
 	1    8550 3050
 	0    1    1    0   
 $EndComp
@@ -716,11 +727,13 @@ U 1 1 6087DDA2
 P 8550 3250
 F 0 "R6" V 8663 3250 50  0000 C CNN
 F 1 "0Ω" V 8754 3250 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" H 8550 3250 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/219/RK73Z-1825387.pdf" H 8550 3250 50  0001 C CNN
-F 4 "0.14" H 8663 3350 50  0001 C CNN "Price"
-F 5 "663-RK73Z2ETTD" H 8663 3350 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 8663 3350 50  0001 C CNN "Vendor"
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8550 3250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf" H 8550 3250 50  0001 C CNN
+F 4 "" H 8663 3350 50  0001 C CNN "Price"
+F 5 "" H 8663 3350 50  0001 C CNN "Vendor Part #"
+F 6 "" H 8663 3350 50  0001 C CNN "Vendor"
+F 7 "Basic" H 8550 3250 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C21189" H 8550 3250 50  0001 C CNN "LCSC Part #"
 	1    8550 3250
 	0    1    1    0   
 $EndComp
@@ -730,11 +743,13 @@ U 1 1 6087E15F
 P 9000 3150
 F 0 "C1" V 9255 3150 50  0000 C CNN
 F 1 "10μF" V 9164 3150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 9038 3000 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf" H 9000 3150 50  0001 C CNN
-F 4 "0.29" H 9255 3250 50  0001 C CNN "Price"
-F 5 "791-1210F106Z100CT" H 9255 3250 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 9255 3250 50  0001 C CNN "Vendor"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9038 3000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf" H 9000 3150 50  0001 C CNN
+F 4 "" H 9255 3250 50  0001 C CNN "Price"
+F 5 "" H 9255 3250 50  0001 C CNN "Vendor Part #"
+F 6 "" H 9255 3250 50  0001 C CNN "Vendor"
+F 7 "Basic" H 9000 3150 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C19702" H 9000 3150 50  0001 C CNN "LCSC Part #"
 	1    9000 3150
 	0    -1   -1   0   
 $EndComp
@@ -744,11 +759,13 @@ U 1 1 606BFEB1
 P 7100 4350
 F 0 "C11" V 6900 4350 50  0000 C CNN
 F 1 "1μF" V 7000 4350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 7100 4350 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf" H 7100 4350 50  0001 C CNN
-F 4 "0.13" H 6900 4450 50  0001 C CNN "Price"
-F 5 "791-1210B105M101CT" H 6900 4450 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 6900 4450 50  0001 C CNN "Vendor"
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7100 4350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf" H 7100 4350 50  0001 C CNN
+F 4 "" H 6900 4450 50  0001 C CNN "Price"
+F 5 "" H 6900 4450 50  0001 C CNN "Vendor Part #"
+F 6 "" H 6900 4450 50  0001 C CNN "Vendor"
+F 7 "Basic" H 7100 4350 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C15849" H 7100 4350 50  0001 C CNN "LCSC Part #"
 	1    7100 4350
 	0    1    1    0   
 $EndComp
@@ -758,11 +775,10 @@ U 1 1 605C75C7
 P 9100 5150
 F 0 "SW1" H 9100 5435 50  0000 C CNN
 F 1 "MUTE_REC" H 9100 5344 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP" H 9100 5350 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf" H 9100 5350 50  0001 C CNN
-F 4 "0.58" H 9100 5535 50  0001 C CNN "Price"
-F 5 "653-B3FS-1002P" H 9100 5535 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 9100 5535 50  0001 C CNN "Vendor"
+F 2 "XKB:TS1187ACCB" H 9100 5350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf" H 9100 5350 50  0001 C CNN
+F 4 "Extended" H 9100 5150 50  0001 C CNN "LCSC Basic or Extended"
+F 5 "C318889" H 9100 5150 50  0001 C CNN "LCSC Part #"
 	1    9100 5150
 	1    0    0    -1  
 $EndComp
@@ -772,11 +788,13 @@ U 1 1 605CBF8A
 P 9100 5500
 F 0 "SW2" H 9100 5785 50  0000 C CNN
 F 1 "MUTE_PLAY" H 9100 5694 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP" H 9100 5700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf" H 9100 5700 50  0001 C CNN
-F 4 "0.58" H 9100 5885 50  0001 C CNN "Price"
-F 5 "653-B3FS-1002P" H 9100 5885 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 9100 5885 50  0001 C CNN "Vendor"
+F 2 "XKB:TS1187ACCB" H 9100 5700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf" H 9100 5700 50  0001 C CNN
+F 4 "" H 9100 5885 50  0001 C CNN "Price"
+F 5 "" H 9100 5885 50  0001 C CNN "Vendor Part #"
+F 6 "" H 9100 5885 50  0001 C CNN "Vendor"
+F 7 "Extended" H 9100 5500 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C318889" H 9100 5500 50  0001 C CNN "LCSC Part #"
 	1    9100 5500
 	1    0    0    -1  
 $EndComp
@@ -786,11 +804,13 @@ U 1 1 605CC73A
 P 9100 5850
 F 0 "SW3" H 9100 6135 50  0000 C CNN
 F 1 "VOL_DN" H 9100 6044 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP" H 9100 6050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf" H 9100 6050 50  0001 C CNN
-F 4 "0.58" H 9100 6235 50  0001 C CNN "Price"
-F 5 "653-B3FS-1002P" H 9100 6235 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 9100 6235 50  0001 C CNN "Vendor"
+F 2 "XKB:TS1187ACCB" H 9100 6050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf" H 9100 6050 50  0001 C CNN
+F 4 "" H 9100 6235 50  0001 C CNN "Price"
+F 5 "" H 9100 6235 50  0001 C CNN "Vendor Part #"
+F 6 "" H 9100 6235 50  0001 C CNN "Vendor"
+F 7 "Extended" H 9100 5850 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C318889" H 9100 5850 50  0001 C CNN "LCSC Part #"
 	1    9100 5850
 	1    0    0    -1  
 $EndComp
@@ -800,11 +820,13 @@ U 1 1 605CD1F5
 P 9100 6200
 F 0 "SW4" H 9100 6485 50  0000 C CNN
 F 1 "VOL_UP" H 9100 6394 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP" H 9100 6400 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf" H 9100 6400 50  0001 C CNN
-F 4 "0.58" H 9100 6585 50  0001 C CNN "Price"
-F 5 "653-B3FS-1002P" H 9100 6585 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 9100 6585 50  0001 C CNN "Vendor"
+F 2 "XKB:TS1187ACCB" H 9100 6400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf" H 9100 6400 50  0001 C CNN
+F 4 "" H 9100 6585 50  0001 C CNN "Price"
+F 5 "" H 9100 6585 50  0001 C CNN "Vendor Part #"
+F 6 "" H 9100 6585 50  0001 C CNN "Vendor"
+F 7 "Extended" H 9100 6200 50  0001 C CNN "LCSC Basic or Extended"
+F 8 "C318889" H 9100 6200 50  0001 C CNN "LCSC Part #"
 	1    9100 6200
 	1    0    0    -1  
 $EndComp
@@ -820,13 +842,7 @@ Text Label 4050 4050 2    50   ~ 0
 PWRSEL
 Text Label 4050 4150 2    50   ~ 0
 MODE
-Text Label 1600 5000 2    50   ~ 0
-PWRSEL
-Text Label 1550 5500 2    50   ~ 0
-MODE
 Text Label 5350 2900 1    50   ~ 0
-MSEL
-Text Label 1550 6000 2    50   ~ 0
 MSEL
 Text Label 5750 5000 0    50   ~ 0
 LEDO
@@ -959,32 +975,6 @@ Wire Wire Line
 Wire Wire Line
 	9400 1950 9400 2350
 Wire Wire Line
-	1600 5000 1850 5000
-Wire Wire Line
-	2000 4800 2750 4800
-Wire Wire Line
-	2750 4800 2750 4700
-Wire Wire Line
-	2000 5300 2750 5300
-Wire Wire Line
-	2750 5300 2750 4800
-Wire Wire Line
-	2000 5800 2750 5800
-Wire Wire Line
-	2000 6200 2550 6200
-Wire Wire Line
-	2550 6200 2550 6350
-Wire Wire Line
-	2000 5700 2550 5700
-Wire Wire Line
-	2550 5700 2550 6200
-Wire Wire Line
-	2000 5200 2550 5200
-Wire Wire Line
-	1550 5500 1850 5500
-Wire Wire Line
-	1550 6000 1850 6000
-Wire Wire Line
 	3250 1700 3250 1800
 Wire Wire Line
 	3250 2100 3350 2100
@@ -1108,14 +1098,6 @@ Wire Wire Line
 	8900 5850 8700 5850
 Wire Wire Line
 	8900 5500 8700 5500
-Wire Wire Line
-	2550 4700 2550 5200
-Wire Wire Line
-	2550 5200 2550 5700
-Wire Wire Line
-	2750 5800 2750 6350
-Wire Wire Line
-	2750 5300 2750 5800
 Connection ~ 4800 5400
 Connection ~ 4900 5400
 Connection ~ 5000 5400
@@ -1128,10 +1110,6 @@ Connection ~ 3800 4400
 Connection ~ 3600 3850
 Connection ~ 9400 6200
 Connection ~ 9400 2350
-Connection ~ 2750 4800
-Connection ~ 2750 5300
-Connection ~ 2550 6200
-Connection ~ 2550 5700
 Connection ~ 3700 2100
 Connection ~ 4100 2100
 Connection ~ 3700 2500
@@ -1143,8 +1121,6 @@ Connection ~ 3250 1800
 Connection ~ 6550 4450
 Connection ~ 8850 3150
 Connection ~ 3250 1900
-Connection ~ 2550 5200
-Connection ~ 2750 5800
 NoConn ~ 4050 3250
 NoConn ~ 4050 3350
 NoConn ~ 4050 3450
@@ -1164,10 +1140,10 @@ NoConn ~ 4050 4950
 NoConn ~ 4050 5050
 NoConn ~ 4050 5150
 $Comp
-L power:GND #PWR?
+L power:GND #PWR017
 U 1 1 605F61ED
 P 1350 3600
-F 0 "#PWR?" H 1350 3350 50  0001 C CNN
+F 0 "#PWR017" H 1350 3350 50  0001 C CNN
 F 1 "GND" H 1355 3427 50  0001 C CNN
 F 2 "" H 1350 3600 50  0001 C CNN
 F 3 "" H 1350 3600 50  0001 C CNN
@@ -1180,11 +1156,10 @@ U 1 1 6057963A
 P 1350 2850
 F 0 "JP2" H 1407 3317 50  0000 C CNN
 F 1 "USB_MICRO_B" H 1407 3226 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 1500 2800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/276/0473460001_IO_CONNECTORS-229243.pdf" H 1500 2800 50  0001 C CNN
-F 4 "0.95" H 1407 3417 50  0001 C CNN "Price"
-F 5 "538-47346-0001" H 1407 3417 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 1407 3417 50  0001 C CNN "Vendor"
+F 2 "Shou_Han:MICROXNJ" H 1500 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_SHOU-HAN-MicroXNJ_C404969.pdf" H 1500 2800 50  0001 C CNN
+F 4 "Extended" H 1350 2850 50  0001 C CNN "LCSC Basic or Extended"
+F 5 "C404969" H 1350 2850 50  0001 C CNN "LCSC Part #"
 	1    1350 2850
 	1    0    0    -1  
 $EndComp
@@ -1194,4 +1169,79 @@ Wire Wire Line
 	1250 3250 1250 3300
 Wire Wire Line
 	1250 3300 1200 3300
+$Comp
+L Switch:SW_DIP_x03 SW5
+U 1 1 607371D2
+P 2600 5200
+F 0 "SW5" V 2646 5070 50  0000 R CNN
+F 1 "SW_DIP_x03" V 2555 5070 50  0000 R CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 2600 5200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810160910_Cixi-Tonver-Elec-VDG-03HG-R_C52648.pdf" H 2600 5200 50  0001 C CNN
+F 4 "Extended" H 2600 5200 50  0001 C CNN "LCSC Basic or Extended"
+F 5 "C52648" H 2600 5200 50  0001 C CNN "LCSC Part #"
+	1    2600 5200
+	0    -1   -1   0   
+$EndComp
+Text Label 2100 5850 2    50   ~ 0
+MSEL
+Text Label 2100 5700 2    50   ~ 0
+MODE
+Text Label 2100 5550 2    50   ~ 0
+PWRSEL
+$Comp
+L Device:R_Network03 RN1
+U 1 1 607A6269
+P 2500 6250
+F 0 "RN1" H 2320 6204 50  0000 R CNN
+F 1 "10KΩ" H 2320 6295 50  0000 R CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 2775 6250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-4D03WGJ0103T5E_C29718.pdf" H 2500 6250 50  0001 C CNN
+F 4 "Basic" H 2500 6250 50  0001 C CNN "LCSC Basic or Extended"
+F 5 "C29718" H 2500 6250 50  0001 C CNN "LCSC Part #"
+	1    2500 6250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 5500 2400 5550
+Wire Wire Line
+	2500 5500 2500 5700
+Wire Wire Line
+	2600 5500 2600 5850
+Wire Wire Line
+	2600 6450 2600 6550
+Wire Wire Line
+	2100 5550 2400 5550
+Connection ~ 2400 5550
+Wire Wire Line
+	2400 5550 2400 6050
+Wire Wire Line
+	2100 5700 2500 5700
+Connection ~ 2500 5700
+Wire Wire Line
+	2500 5700 2500 6050
+Wire Wire Line
+	2100 5850 2600 5850
+Connection ~ 2600 5850
+Wire Wire Line
+	2600 5850 2600 6050
+Wire Wire Line
+	2600 4900 2600 4700
+Wire Wire Line
+	2600 4700 2650 4700
+Wire Wire Line
+	2650 4700 2650 4650
+Wire Wire Line
+	2500 4900 2500 4700
+Wire Wire Line
+	2500 4700 2600 4700
+Connection ~ 2600 4700
+Wire Wire Line
+	2400 4900 2400 4700
+Wire Wire Line
+	2400 4700 2500 4700
+Connection ~ 2500 4700
+Text Label 1700 2850 0    50   ~ 0
+DJ+
+Text Label 1700 2950 0    50   ~ 0
+DJ-
 $EndSCHEMATC
