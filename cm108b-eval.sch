@@ -21,12 +21,7 @@ F 0 "IC1" H 5600 3300 50  0000 C CNN
 F 1 "CM108B" H 5600 3200 50  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5800 3600 50  0001 L CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1902141615_Cmedia-CM108B_C371347.pdf" H 5800 3500 50  0001 L CNN
-F 4 "" H 5800 3400 50  0001 L CNN "Description"
-F 5 "" H 5600 3400 50  0001 C CNN "Price"
-F 6 "" H 5600 3400 50  0001 C CNN "Vendor Part #"
-F 7 "" H 5600 3400 50  0001 C CNN "Vendor"
-F 8 "Extended" H 4250 3100 50  0001 C CNN "LCSC Basic or Extended"
-F 9 "C371347" H 4250 3100 50  0001 C CNN "LCSC Part #"
+F 4 "C371347" H 5600 3400 50  0001 C CNN "LCSC"
 	1    4250 3100
 	1    0    0    -1  
 $EndComp
@@ -82,11 +77,6 @@ F 0 "TP1" V 3847 3898 50  0000 C CNN
 F 1 "Test_3V3" V 3756 3898 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3650 3850 50  0001 C CNN
 F 3 "-" H 3650 3850 50  0001 C CNN
-F 4 "" H 3847 3998 50  0001 C CNN "Price"
-F 5 "" H 3847 3998 50  0001 C CNN "Vendor Part #"
-F 6 "" H 3847 3998 50  0001 C CNN "Vendor"
-F 7 "-" H 3450 3850 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "-" H 3450 3850 50  0001 C CNN "LCSC Part #"
 	1    3450 3850
 	0    -1   -1   0   
 $EndComp
@@ -98,11 +88,7 @@ F 0 "R2" V 2195 2850 50  0000 C CNN
 F 1 "22Ω" V 2286 2850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2400 2850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF220JT5E_C23345.pdf" H 2400 2850 50  0001 C CNN
-F 4 "" H 2195 2950 50  0001 C CNN "Price"
-F 5 "" H 2195 2950 50  0001 C CNN "Vendor Part #"
-F 6 "" H 2195 2950 50  0001 C CNN "Vendor"
-F 7 "Basic" H 2400 2850 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C23345" H 2400 2850 50  0001 C CNN "LCSC Part #"
+F 4 "C23345" H 2195 2950 50  0001 C CNN "LCSC"
 	1    2400 2850
 	0    1    1    0   
 $EndComp
@@ -114,11 +100,7 @@ F 0 "R1" V 2513 2950 50  0000 C CNN
 F 1 "22Ω" V 2604 2950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2400 2950 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF220JT5E_C23345.pdf" H 2400 2950 50  0001 C CNN
-F 4 "" H 2513 3050 50  0001 C CNN "Price"
-F 5 "" H 2513 3050 50  0001 C CNN "Vendor Part #"
-F 6 "" H 2513 3050 50  0001 C CNN "Vendor"
-F 7 "Basic" H 2400 2950 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C23345" H 2400 2950 50  0001 C CNN "LCSC Part #"
+F 4 "C23345" H 2513 3050 50  0001 C CNN "LCSC"
 	1    2400 2950
 	0    1    1    0   
 $EndComp
@@ -130,11 +112,7 @@ F 0 "C3" H 1650 3300 50  0000 L CNN
 F 1 "100pF" H 1750 3200 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1850 3250 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10C101JB8NNNC_C14858.pdf" H 1850 3250 50  0001 C CNN
-F 4 "" H 1650 3400 50  0001 C CNN "Price"
-F 5 "" H 1650 3400 50  0001 C CNN "Vendor Part #"
-F 6 "" H 1650 3400 50  0001 C CNN "Vendor"
-F 7 "Basic" H 1850 3250 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C14858" H 1850 3250 50  0001 C CNN "LCSC Part #"
+F 4 "C14858" H 1650 3400 50  0001 C CNN "LCSC"
 	1    1850 3250
 	1    0    0    -1  
 $EndComp
@@ -146,11 +124,7 @@ F 0 "C4" H 2092 3296 50  0000 L CNN
 F 1 "100pF" H 2092 3205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2000 3250 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10C101JB8NNNC_C14858.pdf" H 2000 3250 50  0001 C CNN
-F 4 "" H 2092 3396 50  0001 C CNN "Price"
-F 5 "" H 2092 3396 50  0001 C CNN "Vendor Part #"
-F 6 "" H 2092 3396 50  0001 C CNN "Vendor"
-F 7 "Basic" H 2000 3250 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C14858" H 2000 3250 50  0001 C CNN "LCSC Part #"
+F 4 "C14858" H 2092 3396 50  0001 C CNN "LCSC"
 	1    2000 3250
 	1    0    0    -1  
 $EndComp
@@ -184,11 +158,7 @@ F 0 "L1" V 2125 2650 50  0000 C CNN
 F 1 "FerriteBead" V 2034 2650 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 1900 2650 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Sunlord-HPZ1608E152-R50TF_C341252.pdf" H 1900 2650 50  0001 C CNN
-F 4 "" H 2125 2750 50  0001 C CNN "Price"
-F 5 "" H 2125 2750 50  0001 C CNN "Vendor Part #"
-F 6 "" H 2125 2750 50  0001 C CNN "Vendor"
-F 7 "Extended" H 1900 2650 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C341252" H 1900 2650 50  0001 C CNN "LCSC Part #"
+F 4 "C341252" H 2125 2750 50  0001 C CNN "LCSC"
 	1    1900 2650
 	0    -1   -1   0   
 $EndComp
@@ -200,11 +170,7 @@ F 0 "L2" H 1288 3496 50  0000 L CNN
 F 1 "FerriteBead" H 1288 3405 50  0000 L CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 1200 3450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Sunlord-HPZ1608E152-R50TF_C341252.pdf" H 1200 3450 50  0001 C CNN
-F 4 "" H 1288 3596 50  0001 C CNN "Price"
-F 5 "" H 1288 3596 50  0001 C CNN "Vendor Part #"
-F 6 "" H 1288 3596 50  0001 C CNN "Vendor"
-F 7 "Extended" H 1200 3450 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C341252" H 1200 3450 50  0001 C CNN "LCSC Part #"
+F 4 "C341252" H 1288 3596 50  0001 C CNN "LCSC"
 	1    1200 3450
 	-1   0    0    1   
 $EndComp
@@ -227,11 +193,7 @@ F 0 "D1" H 8943 1295 50  0000 C CNN
 F 1 "OPER" H 8943 1386 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 8950 1550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" H 8950 1550 50  0001 C CNN
-F 4 "" H 8943 1395 50  0001 C CNN "Price"
-F 5 "" H 8943 1395 50  0001 C CNN "Vendor Part #"
-F 6 "" H 8943 1395 50  0001 C CNN "Vendor"
-F 7 "Basic" H 8950 1550 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C2286" H 8950 1550 50  0001 C CNN "LCSC Part #"
+F 4 "C2286" H 8943 1395 50  0001 C CNN "LCSC"
 	1    8950 1550
 	-1   0    0    1   
 $EndComp
@@ -243,11 +205,7 @@ F 0 "D2" H 8943 1695 50  0000 C CNN
 F 1 "REC_MUTE" H 8943 1786 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 8950 1950 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" H 8950 1950 50  0001 C CNN
-F 4 "" H 8943 1795 50  0001 C CNN "Price"
-F 5 "" H 8943 1795 50  0001 C CNN "Vendor Part #"
-F 6 "" H 8943 1795 50  0001 C CNN "Vendor"
-F 7 "Basic" H 8950 1950 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C2286" H 8950 1950 50  0001 C CNN "LCSC Part #"
+F 4 "C2286" H 8943 1795 50  0001 C CNN "LCSC"
 	1    8950 1950
 	-1   0    0    1   
 $EndComp
@@ -258,12 +216,8 @@ P 8700 1550
 F 0 "R11" V 8495 1550 50  0000 C CNN
 F 1 "330Ω" V 8586 1550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 8700 1550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF3300T5E_C23138.pdf" H 8700 1550 50  0001 C CNN
-F 4 "" H 8495 1650 50  0001 C CNN "Price"
-F 5 "" H 8495 1650 50  0001 C CNN "Vendor Part #"
-F 6 "" H 8495 1650 50  0001 C CNN "Vendor"
-F 7 "Basic" H 8700 1550 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C23138" H 8700 1550 50  0001 C CNN "LCSC Part #"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF3300T5E_C23138.pdf" H 8950 1950 50  0001 C CNN
+F 4 "C23138" H 8495 1650 50  0001 C CNN "LCSC"
 	1    8700 1550
 	0    1    1    0   
 $EndComp
@@ -274,12 +228,8 @@ P 8700 1950
 F 0 "R12" V 8495 1950 50  0000 C CNN
 F 1 "330Ω" V 8586 1950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 8700 1950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF3300T5E_C23138.pdf" H 8700 1950 50  0001 C CNN
-F 4 "" H 8495 2050 50  0001 C CNN "Price"
-F 5 "" H 8495 2050 50  0001 C CNN "Vendor Part #"
-F 6 "" H 8495 2050 50  0001 C CNN "Vendor"
-F 7 "Basic" H 8700 1950 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C23138" H 8700 1950 50  0001 C CNN "LCSC Part #"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF3300T5E_C23138.pdf" H 8950 1950 50  0001 C CNN
+F 4 "C23138" H 8495 2050 50  0001 C CNN "LCSC"
 	1    8700 1950
 	0    1    1    0   
 $EndComp
@@ -324,11 +274,7 @@ F 0 "D3" H 8943 2475 50  0000 C CNN
 F 1 "PWR_DN" H 8943 2566 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 8950 2350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" H 8950 2350 50  0001 C CNN
-F 4 "" H 8943 2575 50  0001 C CNN "Price"
-F 5 "" H 8943 2575 50  0001 C CNN "Vendor Part #"
-F 6 "" H 8943 2575 50  0001 C CNN "Vendor"
-F 7 "Basic" H 8950 2350 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C2286" H 8950 2350 50  0001 C CNN "LCSC Part #"
+F 4 "C2286" H 8943 2575 50  0001 C CNN "LCSC"
 	1    8950 2350
 	-1   0    0    1   
 $EndComp
@@ -339,12 +285,8 @@ P 8700 2350
 F 0 "R7" V 8495 2350 50  0000 C CNN
 F 1 "330Ω" V 8586 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 8700 2350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF3300T5E_C23138.pdf" H 8700 2350 50  0001 C CNN
-F 4 "" H 8495 2450 50  0001 C CNN "Price"
-F 5 "" H 8495 2450 50  0001 C CNN "Vendor Part #"
-F 6 "" H 8495 2450 50  0001 C CNN "Vendor"
-F 7 "Basic" H 8700 2350 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C23138" H 8700 2350 50  0001 C CNN "LCSC Part #"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF3300T5E_C23138.pdf" H 8950 1950 50  0001 C CNN
+F 4 "C23138" H 8495 2450 50  0001 C CNN "LCSC"
 	1    8700 2350
 	0    1    1    0   
 $EndComp
@@ -377,12 +319,8 @@ P 3450 2100
 F 0 "R4" V 3563 2100 50  0000 C CNN
 F 1 "0Ω" V 3654 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3450 2100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf" H 3450 2100 50  0001 C CNN
-F 4 "" H 3563 2200 50  0001 C CNN "Price"
-F 5 "" H 3563 2200 50  0001 C CNN "Vendor Part #"
-F 6 "" H 3563 2200 50  0001 C CNN "Vendor"
-F 7 "Basic" H 3450 2100 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C21189" H 3450 2100 50  0001 C CNN "LCSC Part #"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf" H 8950 1950 50  0001 C CNN
+F 4 "C21189" H 3563 2200 50  0001 C CNN "LCSC"
 	1    3450 2100
 	0    1    1    0   
 $EndComp
@@ -394,11 +332,7 @@ F 0 "C7" H 3792 2246 50  0000 L CNN
 F 1 "4.7μF" H 3792 2155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3700 2200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf" H 3700 2200 50  0001 C CNN
-F 4 "" H 3792 2346 50  0001 C CNN "Price"
-F 5 "" H 3792 2346 50  0001 C CNN "Vendor Part #"
-F 6 "" H 3792 2346 50  0001 C CNN "Vendor"
-F 7 "Basic" H 3700 2200 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C19666" H 3700 2200 50  0001 C CNN "LCSC Part #"
+F 4 "C19666" H 3792 2346 50  0001 C CNN "LCSC"
 	1    3700 2200
 	1    0    0    -1  
 $EndComp
@@ -410,11 +344,7 @@ F 0 "C6" H 4192 2246 50  0000 L CNN
 F 1 "100nF" H 4192 2155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4100 2200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 4100 2200 50  0001 C CNN
-F 4 "" H 4192 2346 50  0001 C CNN "Price"
-F 5 "" H 4192 2346 50  0001 C CNN "Vendor Part #"
-F 6 "" H 4192 2346 50  0001 C CNN "Vendor"
-F 7 "Basic" H 4100 2200 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C14663" H 4100 2200 50  0001 C CNN "LCSC Part #"
+F 4 "C14663" H 4192 2346 50  0001 C CNN "LCSC"
 	1    4100 2200
 	1    0    0    -1  
 $EndComp
@@ -425,12 +355,8 @@ P 3450 2500
 F 0 "R5" V 3563 2500 50  0000 C CNN
 F 1 "0Ω" V 3654 2500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3450 2500 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf" H 3450 2500 50  0001 C CNN
-F 4 "" H 3563 2600 50  0001 C CNN "Price"
-F 5 "" H 3563 2600 50  0001 C CNN "Vendor Part #"
-F 6 "" H 3563 2600 50  0001 C CNN "Vendor"
-F 7 "Basic" H 3450 2500 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C21189" H 3450 2500 50  0001 C CNN "LCSC Part #"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf" H 8950 1950 50  0001 C CNN
+F 4 "C21189" H 3563 2600 50  0001 C CNN "LCSC"
 	1    3450 2500
 	0    1    1    0   
 $EndComp
@@ -442,11 +368,7 @@ F 0 "C9" H 3792 2646 50  0000 L CNN
 F 1 "4.7μF" H 3792 2555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3700 2600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf" H 3700 2600 50  0001 C CNN
-F 4 "" H 3792 2746 50  0001 C CNN "Price"
-F 5 "" H 3792 2746 50  0001 C CNN "Vendor Part #"
-F 6 "" H 3792 2746 50  0001 C CNN "Vendor"
-F 7 "Basic" H 3700 2600 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C19666" H 3700 2600 50  0001 C CNN "LCSC Part #"
+F 4 "C19666" H 3792 2746 50  0001 C CNN "LCSC"
 	1    3700 2600
 	1    0    0    -1  
 $EndComp
@@ -458,11 +380,7 @@ F 0 "C8" H 4192 2646 50  0000 L CNN
 F 1 "100nF" H 4192 2555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4100 2600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 4100 2600 50  0001 C CNN
-F 4 "" H 4192 2746 50  0001 C CNN "Price"
-F 5 "" H 4192 2746 50  0001 C CNN "Vendor Part #"
-F 6 "" H 4192 2746 50  0001 C CNN "Vendor"
-F 7 "Basic" H 4100 2600 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C14663" H 4100 2600 50  0001 C CNN "LCSC Part #"
+F 4 "C14663" H 4192 2746 50  0001 C CNN "LCSC"
 	1    4100 2600
 	1    0    0    -1  
 $EndComp
@@ -496,11 +414,7 @@ F 0 "C10" H 2909 1946 50  0000 R CNN
 F 1 "100nF" H 2909 1855 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3000 1900 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 3000 1900 50  0001 C CNN
-F 4 "" H 2909 2046 50  0001 C CNN "Price"
-F 5 "" H 2909 2046 50  0001 C CNN "Vendor Part #"
-F 6 "" H 2909 2046 50  0001 C CNN "Vendor"
-F 7 "Basic" H 3000 1900 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C14663" H 3000 1900 50  0001 C CNN "LCSC Part #"
+F 4 "C14663" H 2909 2046 50  0001 C CNN "LCSC"
 	1    3000 1900
 	1    0    0    -1  
 $EndComp
@@ -523,11 +437,7 @@ F 0 "C50" V 6855 3900 50  0000 C CNN
 F 1 "470μF" V 6764 3900 50  0000 C CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" H 6638 3750 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/PANASONIC-2TPE470MAJGB_C147774.pdf" H 6600 3900 50  0001 C CNN
-F 4 "" H 6855 4000 50  0001 C CNN "Price"
-F 5 "" V 6600 3900 50  0001 C CNN "Vendor Part #"
-F 6 "" H 6855 4000 50  0001 C CNN "Vendor"
-F 7 "Extended" H 6600 3900 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C147774" H 6600 3900 50  0001 C CNN "LCSC Part #"
+F 4 "C147774" H 6855 4000 50  0001 C CNN "LCSC"
 	1    6600 3900
 	0    -1   -1   0   
 $EndComp
@@ -539,11 +449,7 @@ F 0 "C51" V 7150 4000 50  0000 C CNN
 F 1 "470μF" V 7050 4000 50  0000 C CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" H 6938 3850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/PANASONIC-2TPE470MAJGB_C147774.pdf" H 6900 4000 50  0001 C CNN
-F 4 "" H 7150 4100 50  0001 C CNN "Price"
-F 5 "" V 6900 4000 50  0001 C CNN "Vendor Part #"
-F 6 "" H 7150 4100 50  0001 C CNN "Vendor"
-F 7 "Extended" H 6900 4000 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C147774" H 6900 4000 50  0001 C CNN "LCSC Part #"
+F 4 "C147774" H 7150 4100 50  0001 C CNN "LCSC"
 	1    6900 4000
 	0    -1   -1   0   
 $EndComp
@@ -555,8 +461,7 @@ F 0 "J1" H 8820 3883 50  0000 R CNN
 F 1 "SPKR" H 8820 3974 50  0000 R CNN
 F 2 "HRO Electronics:PJ-3900" H 9100 3950 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1810121713_Korean-Hroparts-Elec-PJ-3900-04_C151839.pdf" H 9100 3950 50  0001 C CNN
-F 4 "Extended" H 9100 3950 50  0001 C CNN "LCSC Basic or Extended"
-F 5 "C151839" H 9100 3950 50  0001 C CNN "LCSC Part #"
+F 4 "C151839" H 8820 3983 50  0001 C CNN "LCSC"
 	1    9100 3950
 	-1   0    0    1   
 $EndComp
@@ -579,8 +484,7 @@ F 0 "J2" H 8820 4383 50  0000 R CNN
 F 1 "MIC" H 8820 4474 50  0000 R CNN
 F 2 "HRO Electronics:PJ-3900" H 9100 4450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2012311032_Korean-Hroparts-Elec-PJ-3900-02_C128995.pdf" H 9100 4450 50  0001 C CNN
-F 4 "Extended" H 9100 4450 50  0001 C CNN "LCSC Basic or Extended"
-F 5 "C128995" H 9100 4450 50  0001 C CNN "LCSC Part #"
+F 4 "C128995" H 8820 4483 50  0001 C CNN "LCSC"
 	1    9100 4450
 	-1   0    0    1   
 $EndComp
@@ -603,11 +507,7 @@ F 0 "C14" H 6058 5154 50  0000 R CNN
 F 1 "4.7μF" H 6058 5245 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6150 5200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf" H 6150 5200 50  0001 C CNN
-F 4 "" H 6058 5254 50  0001 C CNN "Price"
-F 5 "" H 6058 5254 50  0001 C CNN "Vendor Part #"
-F 6 "" H 6058 5254 50  0001 C CNN "Vendor"
-F 7 "Basic" H 6150 5200 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C19666" H 6150 5200 50  0001 C CNN "LCSC Part #"
+F 4 "C19666" H 6058 5254 50  0001 C CNN "LCSC"
 	1    6150 5200
 	-1   0    0    1   
 $EndComp
@@ -618,12 +518,8 @@ P 6350 4450
 F 0 "R10" V 6463 4450 50  0000 C CNN
 F 1 "2.2kΩ" V 6554 4450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6350 4450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2201T5E_C4190.pdf" H 6350 4450 50  0001 C CNN
-F 4 "" H 6463 4550 50  0001 C CNN "Price"
-F 5 "" H 6463 4550 50  0001 C CNN "Vendor Part #"
-F 6 "" H 6463 4550 50  0001 C CNN "Vendor"
-F 7 "Basic" H 6350 4450 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C4190" H 6350 4450 50  0001 C CNN "LCSC Part #"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2201T5E_C4190.pdf" H 8950 1950 50  0001 C CNN
+F 4 "C4190" H 6463 4550 50  0001 C CNN "LCSC"
 	1    6350 4450
 	0    1    1    0   
 $EndComp
@@ -635,11 +531,7 @@ F 0 "R13" V 6863 4450 50  0000 C CNN
 F 1 "1.2kΩ" V 6954 4450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6750 4450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1201T5E_C22765.pdf" H 6750 4450 50  0001 C CNN
-F 4 "" H 6863 4550 50  0001 C CNN "Price"
-F 5 "" H 6863 4550 50  0001 C CNN "Vendor Part #"
-F 6 "" H 6863 4550 50  0001 C CNN "Vendor"
-F 7 "Basic" H 6750 4450 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C22765" H 6750 4450 50  0001 C CNN "LCSC Part #"
+F 4 "C22765" H 6863 4550 50  0001 C CNN "LCSC"
 	1    6750 4450
 	0    1    1    0   
 $EndComp
@@ -662,11 +554,7 @@ F 0 "C15" H 6458 5154 50  0000 R CNN
 F 1 "4.7μF" H 6458 5245 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6550 5200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf" H 6550 5200 50  0001 C CNN
-F 4 "" H 6458 5254 50  0001 C CNN "Price"
-F 5 "" H 6458 5254 50  0001 C CNN "Vendor Part #"
-F 6 "" H 6458 5254 50  0001 C CNN "Vendor"
-F 7 "Basic" H 6550 5200 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C19666" H 6550 5200 50  0001 C CNN "LCSC Part #"
+F 4 "C19666" H 6458 5254 50  0001 C CNN "LCSC"
 	1    6550 5200
 	-1   0    0    1   
 $EndComp
@@ -689,8 +577,7 @@ F 0 "J3" H 9492 2825 50  0000 C CNN
 F 1 "RADIO_DATA" H 9492 2916 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 9600 3150 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1811151524_JST-Sales-America-B3B-PH-K-S-LF-SN_C131339.pdf" H 9600 3150 50  0001 C CNN
-F 4 "Extended" H 9600 3150 50  0001 C CNN "LCSC Basic or Extended"
-F 5 "C131339" H 9600 3150 50  0001 C CNN "LCSC Part #"
+F 4 "C131339" H 9492 2925 50  0001 C CNN "LCSC"
 	1    9600 3150
 	1    0    0    1   
 $EndComp
@@ -712,12 +599,8 @@ P 8550 3050
 F 0 "R3" V 8345 3050 50  0000 C CNN
 F 1 "0Ω" V 8436 3050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 8550 3050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf" H 8550 3050 50  0001 C CNN
-F 4 "" H 8345 3150 50  0001 C CNN "Price"
-F 5 "" H 8345 3150 50  0001 C CNN "Vendor Part #"
-F 6 "" H 8345 3150 50  0001 C CNN "Vendor"
-F 7 "Basic" H 8550 3050 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C21189" H 8550 3050 50  0001 C CNN "LCSC Part #"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf" H 8950 1950 50  0001 C CNN
+F 4 "C21189" H 8345 3150 50  0001 C CNN "LCSC"
 	1    8550 3050
 	0    1    1    0   
 $EndComp
@@ -728,12 +611,8 @@ P 8550 3250
 F 0 "R6" V 8663 3250 50  0000 C CNN
 F 1 "0Ω" V 8754 3250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 8550 3250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf" H 8550 3250 50  0001 C CNN
-F 4 "" H 8663 3350 50  0001 C CNN "Price"
-F 5 "" H 8663 3350 50  0001 C CNN "Vendor Part #"
-F 6 "" H 8663 3350 50  0001 C CNN "Vendor"
-F 7 "Basic" H 8550 3250 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C21189" H 8550 3250 50  0001 C CNN "LCSC Part #"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf" H 8950 1950 50  0001 C CNN
+F 4 "C21189" H 8663 3350 50  0001 C CNN "LCSC"
 	1    8550 3250
 	0    1    1    0   
 $EndComp
@@ -745,11 +624,7 @@ F 0 "C1" V 9255 3150 50  0000 C CNN
 F 1 "10μF" V 9164 3150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9038 3000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf" H 9000 3150 50  0001 C CNN
-F 4 "" H 9255 3250 50  0001 C CNN "Price"
-F 5 "" H 9255 3250 50  0001 C CNN "Vendor Part #"
-F 6 "" H 9255 3250 50  0001 C CNN "Vendor"
-F 7 "Basic" H 9000 3150 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C19702" H 9000 3150 50  0001 C CNN "LCSC Part #"
+F 4 "C19702" H 9255 3250 50  0001 C CNN "LCSC"
 	1    9000 3150
 	0    -1   -1   0   
 $EndComp
@@ -761,11 +636,7 @@ F 0 "C11" V 6900 4350 50  0000 C CNN
 F 1 "1μF" V 7000 4350 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7100 4350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf" H 7100 4350 50  0001 C CNN
-F 4 "" H 6900 4450 50  0001 C CNN "Price"
-F 5 "" H 6900 4450 50  0001 C CNN "Vendor Part #"
-F 6 "" H 6900 4450 50  0001 C CNN "Vendor"
-F 7 "Basic" H 7100 4350 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C15849" H 7100 4350 50  0001 C CNN "LCSC Part #"
+F 4 "C15849" H 6900 4450 50  0001 C CNN "LCSC"
 	1    7100 4350
 	0    1    1    0   
 $EndComp
@@ -777,8 +648,7 @@ F 0 "SW1" H 9100 5435 50  0000 C CNN
 F 1 "MUTE_REC" H 9100 5344 50  0000 C CNN
 F 2 "XKB:TS1187ACCB" H 9100 5350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf" H 9100 5350 50  0001 C CNN
-F 4 "Extended" H 9100 5150 50  0001 C CNN "LCSC Basic or Extended"
-F 5 "C318889" H 9100 5150 50  0001 C CNN "LCSC Part #"
+F 4 "C318889" H 9100 5535 50  0001 C CNN "LCSC"
 	1    9100 5150
 	1    0    0    -1  
 $EndComp
@@ -790,11 +660,7 @@ F 0 "SW2" H 9100 5785 50  0000 C CNN
 F 1 "MUTE_PLAY" H 9100 5694 50  0000 C CNN
 F 2 "XKB:TS1187ACCB" H 9100 5700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf" H 9100 5700 50  0001 C CNN
-F 4 "" H 9100 5885 50  0001 C CNN "Price"
-F 5 "" H 9100 5885 50  0001 C CNN "Vendor Part #"
-F 6 "" H 9100 5885 50  0001 C CNN "Vendor"
-F 7 "Extended" H 9100 5500 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C318889" H 9100 5500 50  0001 C CNN "LCSC Part #"
+F 4 "C318889" H 9100 5885 50  0001 C CNN "LCSC"
 	1    9100 5500
 	1    0    0    -1  
 $EndComp
@@ -806,11 +672,7 @@ F 0 "SW3" H 9100 6135 50  0000 C CNN
 F 1 "VOL_DN" H 9100 6044 50  0000 C CNN
 F 2 "XKB:TS1187ACCB" H 9100 6050 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf" H 9100 6050 50  0001 C CNN
-F 4 "" H 9100 6235 50  0001 C CNN "Price"
-F 5 "" H 9100 6235 50  0001 C CNN "Vendor Part #"
-F 6 "" H 9100 6235 50  0001 C CNN "Vendor"
-F 7 "Extended" H 9100 5850 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C318889" H 9100 5850 50  0001 C CNN "LCSC Part #"
+F 4 "C318889" H 9100 6235 50  0001 C CNN "LCSC"
 	1    9100 5850
 	1    0    0    -1  
 $EndComp
@@ -822,13 +684,56 @@ F 0 "SW4" H 9100 6485 50  0000 C CNN
 F 1 "VOL_UP" H 9100 6394 50  0000 C CNN
 F 2 "XKB:TS1187ACCB" H 9100 6400 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf" H 9100 6400 50  0001 C CNN
-F 4 "" H 9100 6585 50  0001 C CNN "Price"
-F 5 "" H 9100 6585 50  0001 C CNN "Vendor Part #"
-F 6 "" H 9100 6585 50  0001 C CNN "Vendor"
-F 7 "Extended" H 9100 6200 50  0001 C CNN "LCSC Basic or Extended"
-F 8 "C318889" H 9100 6200 50  0001 C CNN "LCSC Part #"
+F 4 "C318889" H 9100 6585 50  0001 C CNN "LCSC"
 	1    9100 6200
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 605F61ED
+P 1350 3600
+F 0 "#PWR017" H 1350 3350 50  0001 C CNN
+F 1 "GND" H 1355 3427 50  0001 C CNN
+F 2 "" H 1350 3600 50  0001 C CNN
+F 3 "" H 1350 3600 50  0001 C CNN
+	1    1350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro JP2
+U 1 1 6057963A
+P 1350 2850
+F 0 "JP2" H 1407 3317 50  0000 C CNN
+F 1 "USB_MICRO_B" H 1407 3226 50  0000 C CNN
+F 2 "Shou_Han:MICROXNJ" H 1500 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_SHOU-HAN-MicroXNJ_C404969.pdf" H 1500 2800 50  0001 C CNN
+F 4 "C404969" H 1407 3417 50  0001 C CNN "LCSC"
+	1    1350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x03 SW5
+U 1 1 607371D2
+P 2600 5200
+F 0 "SW5" V 2646 5070 50  0000 R CNN
+F 1 "SW_DIP_x03" V 2555 5070 50  0000 R CNN
+F 2 "Package_DIP:DIP-6_W7.62mm" H 2600 5200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810160910_Cixi-Tonver-Elec-VDG-03HG-R_C52648.pdf" H 2600 5200 50  0001 C CNN
+F 4 "C52648" H 2646 5170 50  0001 C CNN "LCSC"
+	1    2600 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Network03 RN1
+U 1 1 607A6269
+P 2500 6250
+F 0 "RN1" H 2320 6204 50  0000 R CNN
+F 1 "10KΩ" H 2320 6295 50  0000 R CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 2775 6250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-4D03WGJ0103T5E_C29718.pdf" H 2500 6250 50  0001 C CNN
+F 4 "C29718" H 2320 6304 50  0001 C CNN "LCSC"
+	1    2500 6250
+	-1   0    0    1   
 $EndComp
 Text Label 4950 2900 1    50   ~ 0
 D-
@@ -894,6 +799,16 @@ Text Label 8300 3250 2    50   ~ 0
 AUDIO_L
 Text Label 8300 3050 2    50   ~ 0
 AUDIO_R
+Text Label 2100 5850 2    50   ~ 0
+MSEL
+Text Label 2100 5700 2    50   ~ 0
+MODE
+Text Label 2100 5550 2    50   ~ 0
+PWRSEL
+Text Label 1700 2850 0    50   ~ 0
+DJ+
+Text Label 1700 2950 0    50   ~ 0
+DJ-
 Wire Wire Line
 	4700 5400 4800 5400
 Wire Wire Line
@@ -1098,6 +1013,46 @@ Wire Wire Line
 	8900 5850 8700 5850
 Wire Wire Line
 	8900 5500 8700 5500
+Wire Wire Line
+	1350 3250 1350 3600
+Wire Wire Line
+	1250 3250 1250 3300
+Wire Wire Line
+	1250 3300 1200 3300
+Wire Wire Line
+	2400 5500 2400 5550
+Wire Wire Line
+	2500 5500 2500 5700
+Wire Wire Line
+	2600 5500 2600 5850
+Wire Wire Line
+	2600 6450 2600 6550
+Wire Wire Line
+	2100 5550 2400 5550
+Wire Wire Line
+	2400 5550 2400 6050
+Wire Wire Line
+	2100 5700 2500 5700
+Wire Wire Line
+	2500 5700 2500 6050
+Wire Wire Line
+	2100 5850 2600 5850
+Wire Wire Line
+	2600 5850 2600 6050
+Wire Wire Line
+	2600 4900 2600 4700
+Wire Wire Line
+	2600 4700 2650 4700
+Wire Wire Line
+	2650 4700 2650 4650
+Wire Wire Line
+	2500 4900 2500 4700
+Wire Wire Line
+	2500 4700 2600 4700
+Wire Wire Line
+	2400 4900 2400 4700
+Wire Wire Line
+	2400 4700 2500 4700
 Connection ~ 4800 5400
 Connection ~ 4900 5400
 Connection ~ 5000 5400
@@ -1121,6 +1076,11 @@ Connection ~ 3250 1800
 Connection ~ 6550 4450
 Connection ~ 8850 3150
 Connection ~ 3250 1900
+Connection ~ 2400 5550
+Connection ~ 2500 5700
+Connection ~ 2600 5850
+Connection ~ 2600 4700
+Connection ~ 2500 4700
 NoConn ~ 4050 3250
 NoConn ~ 4050 3350
 NoConn ~ 4050 3450
@@ -1139,109 +1099,4 @@ NoConn ~ 4050 4850
 NoConn ~ 4050 4950
 NoConn ~ 4050 5050
 NoConn ~ 4050 5150
-$Comp
-L power:GND #PWR017
-U 1 1 605F61ED
-P 1350 3600
-F 0 "#PWR017" H 1350 3350 50  0001 C CNN
-F 1 "GND" H 1355 3427 50  0001 C CNN
-F 2 "" H 1350 3600 50  0001 C CNN
-F 3 "" H 1350 3600 50  0001 C CNN
-	1    1350 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:USB_B_Micro JP2
-U 1 1 6057963A
-P 1350 2850
-F 0 "JP2" H 1407 3317 50  0000 C CNN
-F 1 "USB_MICRO_B" H 1407 3226 50  0000 C CNN
-F 2 "Shou_Han:MICROXNJ" H 1500 2800 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_SHOU-HAN-MicroXNJ_C404969.pdf" H 1500 2800 50  0001 C CNN
-F 4 "Extended" H 1350 2850 50  0001 C CNN "LCSC Basic or Extended"
-F 5 "C404969" H 1350 2850 50  0001 C CNN "LCSC Part #"
-	1    1350 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 3250 1350 3600
-Wire Wire Line
-	1250 3250 1250 3300
-Wire Wire Line
-	1250 3300 1200 3300
-$Comp
-L Switch:SW_DIP_x03 SW5
-U 1 1 607371D2
-P 2600 5200
-F 0 "SW5" V 2646 5070 50  0000 R CNN
-F 1 "SW_DIP_x03" V 2555 5070 50  0000 R CNN
-F 2 "Package_DIP:DIP-6_W7.62mm" H 2600 5200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810160910_Cixi-Tonver-Elec-VDG-03HG-R_C52648.pdf" H 2600 5200 50  0001 C CNN
-F 4 "Extended" H 2600 5200 50  0001 C CNN "LCSC Basic or Extended"
-F 5 "C52648" H 2600 5200 50  0001 C CNN "LCSC Part #"
-	1    2600 5200
-	0    -1   -1   0   
-$EndComp
-Text Label 2100 5850 2    50   ~ 0
-MSEL
-Text Label 2100 5700 2    50   ~ 0
-MODE
-Text Label 2100 5550 2    50   ~ 0
-PWRSEL
-$Comp
-L Device:R_Network03 RN1
-U 1 1 607A6269
-P 2500 6250
-F 0 "RN1" H 2320 6204 50  0000 R CNN
-F 1 "10KΩ" H 2320 6295 50  0000 R CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 2775 6250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-4D03WGJ0103T5E_C29718.pdf" H 2500 6250 50  0001 C CNN
-F 4 "Basic" H 2500 6250 50  0001 C CNN "LCSC Basic or Extended"
-F 5 "C29718" H 2500 6250 50  0001 C CNN "LCSC Part #"
-	1    2500 6250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2400 5500 2400 5550
-Wire Wire Line
-	2500 5500 2500 5700
-Wire Wire Line
-	2600 5500 2600 5850
-Wire Wire Line
-	2600 6450 2600 6550
-Wire Wire Line
-	2100 5550 2400 5550
-Connection ~ 2400 5550
-Wire Wire Line
-	2400 5550 2400 6050
-Wire Wire Line
-	2100 5700 2500 5700
-Connection ~ 2500 5700
-Wire Wire Line
-	2500 5700 2500 6050
-Wire Wire Line
-	2100 5850 2600 5850
-Connection ~ 2600 5850
-Wire Wire Line
-	2600 5850 2600 6050
-Wire Wire Line
-	2600 4900 2600 4700
-Wire Wire Line
-	2600 4700 2650 4700
-Wire Wire Line
-	2650 4700 2650 4650
-Wire Wire Line
-	2500 4900 2500 4700
-Wire Wire Line
-	2500 4700 2600 4700
-Connection ~ 2600 4700
-Wire Wire Line
-	2400 4900 2400 4700
-Wire Wire Line
-	2400 4700 2500 4700
-Connection ~ 2500 4700
-Text Label 1700 2850 0    50   ~ 0
-DJ+
-Text Label 1700 2950 0    50   ~ 0
-DJ-
 $EndSCHEMATC
