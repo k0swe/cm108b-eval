@@ -1,5 +1,5 @@
 (fp_lib_table
-  (lib (name Shou_Han)(type KiCad)(uri ${KIPRJMOD}/Libraries/Shou_Han)(options "")(descr ""))
   (lib (name XKB)(type KiCad)(uri ${KIPRJMOD}/Libraries/XKB)(options "")(descr ""))
   (lib (name "HRO Electronics")(type KiCad)(uri "${KIPRJMOD}/Libraries/HRO Electronics")(options "")(descr ""))
+  (lib (name Boom)(type KiCad)(uri ${KIPRJMOD}/Libraries/Boom)(options "")(descr ""))
 )

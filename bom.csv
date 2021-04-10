@@ -19,7 +19,7 @@ IC1,CM108B,C371347,https://datasheet.lcsc.com/szlcsc/1902141615_Cmedia-CM108B_C3
 J1,SPKR,C151839,https://datasheet.lcsc.com/szlcsc/1810121713_Korean-Hroparts-Elec-PJ-3900-04_C151839.pdf,HRO Electronics:PJ-3900
 J2,MIC,C128995,https://datasheet.lcsc.com/szlcsc/2012311032_Korean-Hroparts-Elec-PJ-3900-02_C128995.pdf,HRO Electronics:PJ-3900
 J3,RADIO_DATA,C131339,https://datasheet.lcsc.com/szlcsc/1811151524_JST-Sales-America-B3B-PH-K-S-LF-SN_C131339.pdf,Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical
-JP2,USB_MICRO_B,C404969,https://datasheet.lcsc.com/szlcsc/1912111437_SHOU-HAN-MicroXNJ_C404969.pdf,Shou_Han:MICROXNJ
+JP2,USB_MICRO_B,C21377,https://datasheet.lcsc.com/szlcsc/1811131833_BOOMELE-Boom-Precision-Elec-C21377_C21377.pdf,Boom:C21377
 L1,FerriteBead,C341252,https://datasheet.lcsc.com/szlcsc/1912111437_Sunlord-HPZ1608E152-R50TF_C341252.pdf,Inductor_SMD:L_0603_1608Metric
 L2,FerriteBead,C341252,https://datasheet.lcsc.com/szlcsc/1912111437_Sunlord-HPZ1608E152-R50TF_C341252.pdf,Inductor_SMD:L_0603_1608Metric
 R1,22Ω,C23345,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF220JT5E_C23345.pdf,Resistor_SMD:R_0603_1608Metric
@@ -39,3 +39,4 @@ SW2,MUTE_PLAY,C318889,https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C3188
 SW3,VOL_DN,C318889,https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf,XKB:TS1187ACCB
 SW4,VOL_UP,C318889,https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf,XKB:TS1187ACCB
 SW5,SW_DIP_x03,C52648,https://datasheet.lcsc.com/szlcsc/1810160910_Cixi-Tonver-Elec-VDG-03HG-R_C52648.pdf,Package_DIP:DIP-6_W7.62mm
+TP1,Test_3V3,,-,TestPoint:TestPoint_Pad_D1.0mm
