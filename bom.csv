@@ -1,28 +1,41 @@
-Refs,value,LCSC Part #,LCSC Basic or Extended,datasheet,footprint
-C1,10μF,C19702,Basic,https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf,Capacitor_SMD:C_0603_1608Metric
-"C6, C8, C10",100nF,C14663,Basic,https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf,Capacitor_SMD:C_0603_1608Metric
-C11,1μF,C15849,Basic,https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf,Capacitor_SMD:C_0603_1608Metric
-"C7, C9, C14, C15",4.7μF,C19666,Basic,https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf,Capacitor_SMD:C_0603_1608Metric
-"C3, C4",100pF,C14858,Basic,https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10C101JB8NNNC_C14858.pdf,Capacitor_SMD:C_0603_1608Metric
-"C50, C51",470μF,C147774,Extended,https://datasheet.lcsc.com/szlcsc/PANASONIC-2TPE470MAJGB_C147774.pdf,Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B
-D1,OPER,C2286,Basic,https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf,LED_SMD:LED_0603_1608Metric
-D2,REC_MUTE,C2286,Basic,https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf,LED_SMD:LED_0603_1608Metric
-D3,PWR_DN,C2286,Basic,https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf,LED_SMD:LED_0603_1608Metric
-IC1,CM108B,C371347,Extended,https://datasheet.lcsc.com/szlcsc/1902141615_Cmedia-CM108B_C371347.pdf,Package_QFP:LQFP-48_7x7mm_P0.5mm
-J1,SPKR,C151839,Extended,https://datasheet.lcsc.com/szlcsc/1810121713_Korean-Hroparts-Elec-PJ-3900-04_C151839.pdf,HRO Electronics:PJ-3900
-J2,MIC,C128995,Extended,https://datasheet.lcsc.com/szlcsc/2012311032_Korean-Hroparts-Elec-PJ-3900-02_C128995.pdf,HRO Electronics:PJ-3900
-J3,RADIO_DATA,C131339,Extended,https://datasheet.lcsc.com/szlcsc/1811151524_JST-Sales-America-B3B-PH-K-S-LF-SN_C131339.pdf,Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical
-JP2,USB_MICRO_B,C404969,Extended,https://datasheet.lcsc.com/szlcsc/1912111437_SHOU-HAN-MicroXNJ_C404969.pdf,Shou_Han:MICROXNJ
-"L1, L2",FerriteBead,C341252,Extended,https://datasheet.lcsc.com/szlcsc/1912111437_Sunlord-HPZ1608E152-R50TF_C341252.pdf,Inductor_SMD:L_0603_1608Metric
-"R1, R2",22Ω,C23345,Basic,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF220JT5E_C23345.pdf,Resistor_SMD:R_0603_1608Metric
-R10,2.2kΩ,C4190,Basic,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2201T5E_C4190.pdf,Resistor_SMD:R_0603_1608Metric
-"R7, R11, R12",330Ω,C23138,Basic,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF3300T5E_C23138.pdf,Resistor_SMD:R_0603_1608Metric
-R13,1.2kΩ,C22765,Basic,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1201T5E_C22765.pdf,Resistor_SMD:R_0603_1608Metric
-R3-R6,0Ω,C21189,Basic,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf,Resistor_SMD:R_0603_1608Metric
-RN1,10KΩ,C29718,Basic,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-4D03WGJ0103T5E_C29718.pdf,Resistor_SMD:R_Array_Concave_4x0603
-SW1,MUTE_REC,C318889,Extended,https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf,XKB:TS1187ACCB
-SW2,MUTE_PLAY,C318889,Extended,https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf,XKB:TS1187ACCB
-SW3,VOL_DN,C318889,Extended,https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf,XKB:TS1187ACCB
-SW4,VOL_UP,C318889,Extended,https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf,XKB:TS1187ACCB
-SW5,SW_DIP_x03,C52648,Extended,https://datasheet.lcsc.com/szlcsc/1810160910_Cixi-Tonver-Elec-VDG-03HG-R_C52648.pdf,Package_DIP:DIP-6_W7.62mm
-TP1,Test_3V3,-,-,-,TestPoint:TestPoint_Pad_D1.0mm
+Refs,value,LCSC,datasheet,footprint
+C1,10μF,C19702,https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf,Capacitor_SMD:C_0603_1608Metric
+C10,100nF,C14663,https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf,Capacitor_SMD:C_0603_1608Metric
+C11,1μF,C15849,https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf,Capacitor_SMD:C_0603_1608Metric
+C14,4.7μF,C19666,https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf,Capacitor_SMD:C_0603_1608Metric
+C15,4.7μF,C19666,https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf,Capacitor_SMD:C_0603_1608Metric
+C3,100pF,C14858,https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10C101JB8NNNC_C14858.pdf,Capacitor_SMD:C_0603_1608Metric
+C4,100pF,C14858,https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10C101JB8NNNC_C14858.pdf,Capacitor_SMD:C_0603_1608Metric
+C50,470μF,C147774,https://datasheet.lcsc.com/szlcsc/PANASONIC-2TPE470MAJGB_C147774.pdf,Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B
+C51,470μF,C147774,https://datasheet.lcsc.com/szlcsc/PANASONIC-2TPE470MAJGB_C147774.pdf,Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B
+C6,100nF,C14663,https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf,Capacitor_SMD:C_0603_1608Metric
+C7,4.7μF,C19666,https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf,Capacitor_SMD:C_0603_1608Metric
+C8,100nF,C14663,https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf,Capacitor_SMD:C_0603_1608Metric
+C9,4.7μF,C19666,https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf,Capacitor_SMD:C_0603_1608Metric
+D1,OPER,C2286,https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf,LED_SMD:LED_0603_1608Metric
+D2,REC_MUTE,C2286,https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf,LED_SMD:LED_0603_1608Metric
+D3,PWR_DN,C2286,https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf,LED_SMD:LED_0603_1608Metric
+IC1,CM108B,C371347,https://datasheet.lcsc.com/szlcsc/1902141615_Cmedia-CM108B_C371347.pdf,Package_QFP:LQFP-48_7x7mm_P0.5mm
+J1,SPKR,C151839,https://datasheet.lcsc.com/szlcsc/1810121713_Korean-Hroparts-Elec-PJ-3900-04_C151839.pdf,HRO Electronics:PJ-3900
+J2,MIC,C128995,https://datasheet.lcsc.com/szlcsc/2012311032_Korean-Hroparts-Elec-PJ-3900-02_C128995.pdf,HRO Electronics:PJ-3900
+J3,RADIO_DATA,C131339,https://datasheet.lcsc.com/szlcsc/1811151524_JST-Sales-America-B3B-PH-K-S-LF-SN_C131339.pdf,Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical
+JP2,USB_MICRO_B,C404969,https://datasheet.lcsc.com/szlcsc/1912111437_SHOU-HAN-MicroXNJ_C404969.pdf,Shou_Han:MICROXNJ
+L1,FerriteBead,C341252,https://datasheet.lcsc.com/szlcsc/1912111437_Sunlord-HPZ1608E152-R50TF_C341252.pdf,Inductor_SMD:L_0603_1608Metric
+L2,FerriteBead,C341252,https://datasheet.lcsc.com/szlcsc/1912111437_Sunlord-HPZ1608E152-R50TF_C341252.pdf,Inductor_SMD:L_0603_1608Metric
+R1,22Ω,C23345,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF220JT5E_C23345.pdf,Resistor_SMD:R_0603_1608Metric
+R10,2.2kΩ,C4190,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2201T5E_C4190.pdf,Resistor_SMD:R_0603_1608Metric
+R11,330Ω,C23138,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF3300T5E_C23138.pdf,Resistor_SMD:R_0603_1608Metric
+R12,330Ω,C23138,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF3300T5E_C23138.pdf,Resistor_SMD:R_0603_1608Metric
+R13,1.2kΩ,C22765,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1201T5E_C22765.pdf,Resistor_SMD:R_0603_1608Metric
+R2,22Ω,C23345,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF220JT5E_C23345.pdf,Resistor_SMD:R_0603_1608Metric
+R3,0Ω,C21189,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf,Resistor_SMD:R_0603_1608Metric
+R4,0Ω,C21189,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf,Resistor_SMD:R_0603_1608Metric
+R5,0Ω,C21189,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf,Resistor_SMD:R_0603_1608Metric
+R6,0Ω,C21189,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF0000T5E_C21189.pdf,Resistor_SMD:R_0603_1608Metric
+R7,330Ω,C23138,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF3300T5E_C23138.pdf,Resistor_SMD:R_0603_1608Metric
+RN1,10KΩ,C29718,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-4D03WGJ0103T5E_C29718.pdf,Resistor_SMD:R_Array_Concave_4x0603
+SW1,MUTE_REC,C318889,https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf,XKB:TS1187ACCB
+SW2,MUTE_PLAY,C318889,https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf,XKB:TS1187ACCB
+SW3,VOL_DN,C318889,https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf,XKB:TS1187ACCB
+SW4,VOL_UP,C318889,https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf,XKB:TS1187ACCB
+SW5,SW_DIP_x03,C52648,https://datasheet.lcsc.com/szlcsc/1810160910_Cixi-Tonver-Elec-VDG-03HG-R_C52648.pdf,Package_DIP:DIP-6_W7.62mm
