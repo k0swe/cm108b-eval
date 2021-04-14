@@ -393,7 +393,7 @@ F 1 "0Ω" V 3654 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_1210_3225Metric" H 3450 2100 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/219/RK73Z-1825387.pdf" H 3450 2100 50  0001 C CNN
 F 4 "0.14" H 3563 2200 50  0001 C CNN "Price"
-F 5 "661-RK73Z2ETTD" H 3563 2200 50  0001 C CNN "Vendor Part #"
+F 5 "660-RK73Z2ETTD" H 3563 2200 50  0001 C CNN "Vendor Part #"
 F 6 "Mouser" H 3563 2200 50  0001 C CNN "Vendor"
 	1    3450 2100
 	0    1    1    0   
@@ -435,7 +435,7 @@ F 1 "0Ω" V 3654 2500 50  0000 C CNN
 F 2 "Resistor_SMD:R_1210_3225Metric" H 3450 2500 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/219/RK73Z-1825387.pdf" H 3450 2500 50  0001 C CNN
 F 4 "0.14" H 3563 2600 50  0001 C CNN "Price"
-F 5 "662-RK73Z2ETTD" H 3563 2600 50  0001 C CNN "Vendor Part #"
+F 5 "660-RK73Z2ETTD" H 3563 2600 50  0001 C CNN "Vendor Part #"
 F 6 "Mouser" H 3563 2600 50  0001 C CNN "Vendor"
 	1    3450 2500
 	0    1    1    0   
@@ -719,7 +719,7 @@ F 1 "0Ω" V 8754 3250 50  0000 C CNN
 F 2 "Resistor_SMD:R_1210_3225Metric" H 8550 3250 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/219/RK73Z-1825387.pdf" H 8550 3250 50  0001 C CNN
 F 4 "0.14" H 8663 3350 50  0001 C CNN "Price"
-F 5 "663-RK73Z2ETTD" H 8663 3350 50  0001 C CNN "Vendor Part #"
+F 5 "660-RK73Z2ETTD" H 8663 3350 50  0001 C CNN "Vendor Part #"
 F 6 "Mouser" H 8663 3350 50  0001 C CNN "Vendor"
 	1    8550 3250
 	0    1    1    0   

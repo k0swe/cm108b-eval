@@ -1,23 +1,42 @@
-Refs,quantity,value,Vendor,Vendor Part #,Price,datasheet,footprint
-"C6, C8, C10",3,100nF,Mouser,80-C1210C104K5RAUTO,0.37,https://www.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf,Capacitor_SMD:C_1210_3225Metric
-"C3, C4",2,100pF,Mouser,80-C1210C101K3HACTU,0.28,https://www.mouser.com/datasheet/2/212/KEM_C1007_X8R_ULTRA_150C_SMD-1102703.pdf,Capacitor_SMD:C_1210_3225Metric
-C1,1,10μF,Mouser,791-1210F106Z100CT,0.29,https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf,Capacitor_SMD:C_1210_3225Metric
-C11,1,1μF,Mouser,791-1210B105M101CT,0.13,https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf,Capacitor_SMD:C_1210_3225Metric
-"C7, C9, C14, C15",4,4.7μF,Mouser,963-EMK325B7475MN-T,0.35,https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf,Capacitor_SMD:C_1210_3225Metric
-"C50, C51",2,470μF,Mouser,74-293D477X9010E2TE3,1.3,https://www.mouser.com/datasheet/2/427/293d-1763499.pdf,293D477X9010E2TE3:CAPPM7343X430N
-"D1, D2, D3",3,LED,Mouser,710-150060RS75000,0.15,https://www.mouser.com/datasheet/2/445/150060RS75000-1715052.pdf,LED_SMD:LED_0603_1608Metric
-IC1,1,CM108B,Symmetry,CM108B,1.64,https://www.cmedia.com.tw/support/download_center/38,CM108B USB Audio
-J1,1,SPKR,Mouser,490-SJ3524-SMT-TR-GR,1.26,https://www.mouser.com/datasheet/2/670/sj_352x_smt-1779397.pdf,Connector_Audio:Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal
-J2,1,MIC,Mouser,490-SJ3524SMTTRPI,1.26,https://www.mouser.com/datasheet/2/670/sj_352x_smt-1779397.pdf,Connector_Audio:Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal
-J3,1,RADIO_DATA,Mouser,485-4389,0.35,https://www.mouser.com/datasheet/2/737/4389_C13924-001_CCP-W20-03-BK-SMT-R-A-1708610.pdf,Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical
-"JP1, JP3, JP4",3,Jumper,Mouser,649-1012937890301BLF,0.1,https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
-JP2,1,USB_A,Mouser,538-47346-0001,0.95,https://www.mouser.com/datasheet/2/276/0473460001_IO_CONNECTORS-229243.pdf,Connector_USB:USB_Micro-B_Molex_47346-0001
-"L1, L2",2,L,Mouser,673-PE1210CCMC161STS,0.92,https://www.mouser.com/datasheet/2/336/W719-1480588.pdf,Inductor_SMD:L_1210_3225Metric
-"R3, R4, R5, R6",4,0Ω,Mouser,660-RK73Z2ETTD,0.14,https://www.mouser.com/datasheet/2/219/RK73Z-1825387.pdf,Resistor_SMD:R_1210_3225Metric
-R13,1,1.2kΩ,Mouser,603-RC1210FR-071K2L,0.16,https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf,Resistor_SMD:R_1210_3225Metric
-R10,1,2.2kΩ,Mouser,660-RK73H2ETTD2201F,0.2,https://www.mouser.com/datasheet/2/219/RK73H-1825326.pdf,Resistor_SMD:R_1210_3225Metric
-"R1, R2",,22Ω,Mouser,667-ERJ-14YJ220U,0.17,https://www.mouser.com/datasheet/2/315/AOA0000C301-1488782.pdf,Resistor_SMD:R_1210_3225Metric
-"R7, R11, R12",3,330Ω,Mouser,279-CRGCQ1210J330R,0.13,https://www.mouser.com/datasheet/2/418/4/NG_DS_1773204-3_1-1358553.pdf,Resistor_SMD:R_1210_3225Metric
-"SW1, SW2, SW3, SW4",4,Tactile button,Mouser,653-B3FS-1002P,0.58,https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf,Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP
-TP1,1,Test_3V3,-,-,0,-,TestPoint:TestPoint_Pad_D1.0mm
-,3,Shunt,Mouser,571-1-881545-2,0.39,https://www.mouser.com/datasheet/2/418/7/ENG_CD_881545_K4-2068972.pdf,-
+Refs,value,Vendor,Vendor Part #,Price,datasheet,footprint
+C1,10μF,Mouser,791-1210F106Z100CT,0.29,https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf,Capacitor_SMD:C_1210_3225Metric
+C10,100nF,Mouser,80-C1210C104K5RAUTO,0.37,https://www.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf,Capacitor_SMD:C_1210_3225Metric
+C11,1μF,Mouser,791-1210B105M101CT,0.13,https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf,Capacitor_SMD:C_1210_3225Metric
+C14,4.7μF,Mouser,963-EMK325B7475MN-T,0.35,https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf,Capacitor_SMD:C_1210_3225Metric
+C15,4.7μF,Mouser,963-EMK325B7475MN-T,0.35,https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf,Capacitor_SMD:C_1210_3225Metric
+C3,100pF,Mouser,80-C1210C101K3HACTU,0.28,https://www.mouser.com/datasheet/2/212/KEM_C1007_X8R_ULTRA_150C_SMD-1102703.pdf,Capacitor_SMD:C_1210_3225Metric
+C4,100pF,Mouser,80-C1210C101K3HACTU,0.28,https://www.mouser.com/datasheet/2/212/KEM_C1007_X8R_ULTRA_150C_SMD-1102703.pdf,Capacitor_SMD:C_1210_3225Metric
+C50,470μF,Mouser,74-293D477X9010E2TE3,1.3,https://www.mouser.com/datasheet/2/427/293d-1763499.pdf,293D477X9010E2TE3:CAPPM7343X430N
+C51,470μF,Mouser,74-293D477X9010E2TE3,1.3,https://www.mouser.com/datasheet/2/427/293d-1763499.pdf,293D477X9010E2TE3:CAPPM7343X430N
+C6,100nF,Mouser,80-C1210C104K5RAUTO,0.37,https://www.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf,Capacitor_SMD:C_1210_3225Metric
+C7,4.7μF,Mouser,963-EMK325B7475MN-T,0.35,https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf,Capacitor_SMD:C_1210_3225Metric
+C8,100nF,Mouser,80-C1210C104K5RAUTO,0.37,https://www.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf,Capacitor_SMD:C_1210_3225Metric
+C9,4.7μF,Mouser,963-EMK325B7475MN-T,0.35,https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf,Capacitor_SMD:C_1210_3225Metric
+D1,OPER,Mouser,710-150060RS75000,0.15,https://www.mouser.com/datasheet/2/445/150060RS75000-1715052.pdf,LED_SMD:LED_0603_1608Metric
+D2,REC_MUTE,Mouser,710-150060RS75000,0.15,https://www.mouser.com/datasheet/2/445/150060RS75000-1715052.pdf,LED_SMD:LED_0603_1608Metric
+D3,PWR_DN,Mouser,710-150060RS75000,0.15,https://www.mouser.com/datasheet/2/445/150060RS75000-1715052.pdf,LED_SMD:LED_0603_1608Metric
+IC1,CM108B,Symmetry,CM108B,1.64,https://www.cmedia.com.tw/support/download_center/38,CM108B USB Audio
+J1,SPKR,Mouser,490-SJ3524-SMT-TR-GR,1.26,https://www.mouser.com/datasheet/2/670/sj_352x_smt-1779397.pdf,Connector_Audio:Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal
+J2,MIC,Mouser,490-SJ3524SMTTRPI,1.26,https://www.mouser.com/datasheet/2/670/sj_352x_smt-1779397.pdf,Connector_Audio:Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal
+J3,RADIO_DATA,Mouser,485-4389,0.35,https://www.mouser.com/datasheet/2/737/4389_C13924-001_CCP-W20-03-BK-SMT-R-A-1708610.pdf,Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical
+JP1,PWRSEL,Mouser,649-1012937890301BLF,0.1,https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+JP2,USB_MICRO_B,Mouser,490-UJ2-MIBH-4-SMT,0.79,https://www.mouser.com/datasheet/2/670/uj2_mibh_4_smt-1313358.pdf,CUI:UJ2-MIBH-4-SMT
+JP3,MODE,Mouser,649-1012937890301BLF,0.1,https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+JP4,MSEL,Mouser,649-1012937890301BLF,0.1,https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+L1,L,Mouser,673-PE1210CCMC161STS,0.92,https://www.mouser.com/datasheet/2/336/W719-1480588.pdf,Inductor_SMD:L_1210_3225Metric
+L2,L,Mouser,673-PE1210CCMC161STS,0.92,https://www.mouser.com/datasheet/2/336/W719-1480588.pdf,Inductor_SMD:L_1210_3225Metric
+R1,22Ω,Mouser,667-ERJ-14YJ220U,0.17,https://www.mouser.com/datasheet/2/315/AOA0000C301-1488782.pdf,Resistor_SMD:R_1210_3225Metric
+R10,2.2kΩ,Mouser,660-RK73H2ETTD2201F,0.2,https://www.mouser.com/datasheet/2/219/RK73H-1825326.pdf,Resistor_SMD:R_1210_3225Metric
+R11,330Ω,Mouser,279-CRGCQ1210J330R,0.13,https://www.mouser.com/datasheet/2/418/4/NG_DS_1773204-3_1-1358553.pdf,Resistor_SMD:R_1210_3225Metric
+R12,330Ω,Mouser,279-CRGCQ1210J330R,0.13,https://www.mouser.com/datasheet/2/418/4/NG_DS_1773204-3_1-1358553.pdf,Resistor_SMD:R_1210_3225Metric
+R13,1.2kΩ,Mouser,603-RC1210FR-071K2L,0.16,https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf,Resistor_SMD:R_1210_3225Metric
+R2,22Ω,Mouser,667-ERJ-14YJ220U,0.17,https://www.mouser.com/datasheet/2/315/AOA0000C301-1488782.pdf,Resistor_SMD:R_1210_3225Metric
+R3,0Ω,Mouser,660-RK73Z2ETTD,0.14,https://www.mouser.com/datasheet/2/219/RK73Z-1825387.pdf,Resistor_SMD:R_1210_3225Metric
+R4,0Ω,Mouser,660-RK73Z2ETTD,0.14,https://www.mouser.com/datasheet/2/219/RK73Z-1825387.pdf,Resistor_SMD:R_1210_3225Metric
+R5,0Ω,Mouser,660-RK73Z2ETTD,0.14,https://www.mouser.com/datasheet/2/219/RK73Z-1825387.pdf,Resistor_SMD:R_1210_3225Metric
+R6,0Ω,Mouser,660-RK73Z2ETTD,0.14,https://www.mouser.com/datasheet/2/219/RK73Z-1825387.pdf,Resistor_SMD:R_1210_3225Metric
+R7,330Ω,Mouser,279-CRGCQ1210J330R,0.13,https://www.mouser.com/datasheet/2/418/4/NG_DS_1773204-3_1-1358553.pdf,Resistor_SMD:R_1210_3225Metric
+SW1,MUTE_REC,Mouser,653-B3FS-1002P,0.58,https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf,Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP
+SW2,MUTE_PLAY,Mouser,653-B3FS-1002P,0.58,https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf,Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP
+SW3,VOL_DN,Mouser,653-B3FS-1002P,0.58,https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf,Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP
+SW4,VOL_UP,Mouser,653-B3FS-1002P,0.58,https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf,Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP
