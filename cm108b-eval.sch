@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "CM108B Evaluation Board"
-Date "2021-04-05"
-Rev "3"
+Date "2021-04-14"
+Rev "4"
 Comp "Chris Keller"
 Comment1 ""
 Comment2 ""
@@ -1164,10 +1164,10 @@ NoConn ~ 4050 4950
 NoConn ~ 4050 5050
 NoConn ~ 4050 5150
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 605F61ED
 P 1350 3600
-F 0 "#PWR?" H 1350 3350 50  0001 C CNN
+F 0 "#PWR0102" H 1350 3350 50  0001 C CNN
 F 1 "GND" H 1355 3427 50  0001 C CNN
 F 2 "" H 1350 3600 50  0001 C CNN
 F 3 "" H 1350 3600 50  0001 C CNN
@@ -1180,10 +1180,10 @@ U 1 1 6057963A
 P 1350 2850
 F 0 "JP2" H 1407 3317 50  0000 C CNN
 F 1 "USB_MICRO_B" H 1407 3226 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 1500 2800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/276/0473460001_IO_CONNECTORS-229243.pdf" H 1500 2800 50  0001 C CNN
-F 4 "0.95" H 1407 3417 50  0001 C CNN "Price"
-F 5 "538-47346-0001" H 1407 3417 50  0001 C CNN "Vendor Part #"
+F 2 "CUI:UJ2-MIBH-4-SMT" H 1500 2800 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/670/uj2_mibh_4_smt-1313358.pdf" H 1500 2800 50  0001 C CNN
+F 4 "0.79" H 1407 3417 50  0001 C CNN "Price"
+F 5 "490-UJ2-MIBH-4-SMT" H 1407 3417 50  0001 C CNN "Vendor Part #"
 F 6 "Mouser" H 1407 3417 50  0001 C CNN "Vendor"
 	1    1350 2850
 	1    0    0    -1  
@@ -1194,4 +1194,8 @@ Wire Wire Line
 	1250 3250 1250 3300
 Wire Wire Line
 	1250 3300 1200 3300
+Text Label 1700 2850 0    50   ~ 0
+USB+
+Text Label 1700 2950 0    50   ~ 0
+USB-
 $EndSCHEMATC

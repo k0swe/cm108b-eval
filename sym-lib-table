@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name CM108)(type Legacy)(uri ${KIPRJMOD}/Libraries/CM108/CM108.lib)(options "")(descr ""))
-  (lib (name 293D477X9010E2TE3)(type Legacy)(uri ${KIPRJMOD}/Libraries/293D477X9010E2TE3/293D477X9010E2TE3.lib)(options "")(descr ""))
+  (lib (name CM108)(type Legacy)(uri ${KIPRJMOD}/Libraries/Cmedia/CM108.lib)(options "")(descr ""))
 )
