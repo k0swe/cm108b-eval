@@ -165,20 +165,6 @@ F 3 "" H 2000 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L_Core_Ferrite L1
-U 1 1 6059B333
-P 1900 2650
-F 0 "L1" V 2125 2650 50  0000 C CNN
-F 1 "L" V 2034 2650 50  0000 C CNN
-F 2 "Inductor_SMD:L_1210_3225Metric" H 1900 2650 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/336/W719-1480588.pdf" H 1900 2650 50  0001 C CNN
-F 4 "0.92" H 2125 2750 50  0001 C CNN "Price"
-F 5 "673-PE1210CCMC161STS" H 2125 2750 50  0001 C CNN "Vendor Part #"
-F 6 "Mouser" H 2125 2750 50  0001 C CNN "Vendor"
-	1    1900 2650
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:L_Core_Ferrite L2
 U 1 1 6059FDC7
 P 1200 3450
@@ -885,8 +871,6 @@ Wire Wire Line
 Wire Wire Line
 	4900 5400 5000 5400
 Wire Wire Line
-	5000 5400 5050 5400
-Wire Wire Line
 	4900 5400 4900 5500
 Wire Wire Line
 	1650 2850 2000 2850
@@ -896,8 +880,6 @@ Wire Wire Line
 	2500 2850 2650 2850
 Wire Wire Line
 	2500 2950 2650 2950
-Wire Wire Line
-	1650 2650 1750 2650
 Wire Wire Line
 	1850 3150 1850 2950
 Wire Wire Line
@@ -1085,8 +1067,6 @@ Wire Wire Line
 Wire Wire Line
 	8650 3250 8850 3250
 Wire Wire Line
-	2050 2650 2150 2650
-Wire Wire Line
 	2150 2650 2150 2400
 Wire Wire Line
 	4550 2100 4550 2900
@@ -1098,8 +1078,6 @@ Wire Wire Line
 	6950 4250 6950 4350
 Wire Wire Line
 	6950 4350 7000 4350
-Wire Wire Line
-	3250 1900 3550 1900
 Wire Wire Line
 	8900 5150 8700 5150
 Wire Wire Line
@@ -1189,7 +1167,7 @@ F 6 "Mouser" H 1407 3417 50  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 3250 1350 3600
+	1350 3250 1350 3350
 Wire Wire Line
 	1250 3250 1250 3300
 Wire Wire Line
@@ -1201,35 +1179,59 @@ USB-
 $Comp
 L Connector:TestPoint_Flag TP2
 U 1 1 607EBAE2
-P 3550 1900
-F 0 "TP2" V 3947 1948 50  0000 C CNN
-F 1 "5V" V 3856 1948 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3750 1900 50  0001 C CNN
-F 3 "-" H 3750 1900 50  0001 C CNN
-F 4 "0" H 3947 2048 50  0001 C CNN "Price"
-F 5 "-" H 3947 2048 50  0001 C CNN "Vendor Part #"
-F 6 "-" H 3947 2048 50  0001 C CNN "Vendor"
-	1    3550 1900
+P 1700 2300
+F 0 "TP2" V 1854 2440 50  0000 L CNN
+F 1 "5V" V 1763 2440 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1900 2300 50  0001 C CNN
+F 3 "-" H 1900 2300 50  0001 C CNN
+F 4 "0" H 2097 2448 50  0001 C CNN "Price"
+F 5 "-" H 2097 2448 50  0001 C CNN "Vendor Part #"
+F 6 "-" H 2097 2448 50  0001 C CNN "Vendor"
+	1    1700 2300
 	0    1    -1   0   
 $EndComp
-Connection ~ 3550 1900
-Wire Wire Line
-	3550 1900 4650 1900
 $Comp
 L Connector:TestPoint_Flag TP1
 U 1 1 607ECE47
-P 5050 5400
-F 0 "TP1" H 5158 5585 50  0000 C CNN
-F 1 "GND" H 5158 5676 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5250 5400 50  0001 C CNN
-F 3 "-" H 5250 5400 50  0001 C CNN
-F 4 "0" H 5447 5548 50  0001 C CNN "Price"
-F 5 "-" H 5447 5548 50  0001 C CNN "Vendor Part #"
-F 6 "-" H 5447 5548 50  0001 C CNN "Vendor"
-	1    5050 5400
+P 1350 3350
+F 0 "TP1" H 1550 3500 50  0000 R CNN
+F 1 "GND" H 1550 3550 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1550 3350 50  0001 C CNN
+F 3 "-" H 1550 3350 50  0001 C CNN
+F 4 "0" H 1747 3498 50  0001 C CNN "Price"
+F 5 "-" H 1747 3498 50  0001 C CNN "Vendor Part #"
+F 6 "-" H 1747 3498 50  0001 C CNN "Vendor"
+	1    1350 3350
 	1    0    0    1   
 $EndComp
-Connection ~ 5050 5400
 Wire Wire Line
-	5050 5400 5100 5400
+	3250 1900 4650 1900
+Wire Wire Line
+	2050 2650 2150 2650
+Wire Wire Line
+	1650 2650 1700 2650
+$Comp
+L Device:L_Core_Ferrite L1
+U 1 1 6059B333
+P 1900 2650
+F 0 "L1" V 2125 2650 50  0000 C CNN
+F 1 "L" V 2034 2650 50  0000 C CNN
+F 2 "Inductor_SMD:L_1210_3225Metric" H 1900 2650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/336/W719-1480588.pdf" H 1900 2650 50  0001 C CNN
+F 4 "0.92" H 2125 2750 50  0001 C CNN "Price"
+F 5 "673-PE1210CCMC161STS" H 2125 2750 50  0001 C CNN "Vendor Part #"
+F 6 "Mouser" H 2125 2750 50  0001 C CNN "Vendor"
+	1    1900 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 2300 1700 2650
+Connection ~ 1700 2650
+Wire Wire Line
+	1700 2650 1750 2650
+Connection ~ 1350 3350
+Wire Wire Line
+	1350 3350 1350 3600
+Wire Wire Line
+	5000 5400 5100 5400
 $EndSCHEMATC
