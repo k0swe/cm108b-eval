@@ -6,8 +6,8 @@ C14,4.7μF,Mouser,963-EMK325B7475MN-T,0.35,https://www.mouser.com/datasheet/2/39
 C15,4.7μF,Mouser,963-EMK325B7475MN-T,0.35,https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf,Capacitor_SMD:C_1210_3225Metric
 C3,100pF,Mouser,80-C1210C101K3HACTU,0.28,https://www.mouser.com/datasheet/2/212/KEM_C1007_X8R_ULTRA_150C_SMD-1102703.pdf,Capacitor_SMD:C_1210_3225Metric
 C4,100pF,Mouser,80-C1210C101K3HACTU,0.28,https://www.mouser.com/datasheet/2/212/KEM_C1007_X8R_ULTRA_150C_SMD-1102703.pdf,Capacitor_SMD:C_1210_3225Metric
-C50,470μF,Mouser,74-293D477X9010E2TE3,1.3,https://www.mouser.com/datasheet/2/427/293d-1763499.pdf,293D477X9010E2TE3:CAPPM7343X430N
-C51,470μF,Mouser,74-293D477X9010E2TE3,1.3,https://www.mouser.com/datasheet/2/427/293d-1763499.pdf,293D477X9010E2TE3:CAPPM7343X430N
+C50,470μF,Mouser,74-293D477X9010E2TE3,1.3,https://www.mouser.com/datasheet/2/427/293d-1763499.pdf,Vishay:CAPPM7343X430N
+C51,470μF,Mouser,74-293D477X9010E2TE3,1.3,https://www.mouser.com/datasheet/2/427/293d-1763499.pdf,Vishay:CAPPM7343X430N
 C6,100nF,Mouser,80-C1210C104K5RAUTO,0.37,https://www.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf,Capacitor_SMD:C_1210_3225Metric
 C7,4.7μF,Mouser,963-EMK325B7475MN-T,0.35,https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf,Capacitor_SMD:C_1210_3225Metric
 C8,100nF,Mouser,80-C1210C104K5RAUTO,0.37,https://www.mouser.com/datasheet/2/212/KEM_C1023_X7R_AUTO_SMD-1093309.pdf,Capacitor_SMD:C_1210_3225Metric
@@ -36,7 +36,7 @@ R4,0Ω,Mouser,660-RK73Z2ETTD,0.14,https://www.mouser.com/datasheet/2/219/RK73Z-1
 R5,0Ω,Mouser,660-RK73Z2ETTD,0.14,https://www.mouser.com/datasheet/2/219/RK73Z-1825387.pdf,Resistor_SMD:R_1210_3225Metric
 R6,0Ω,Mouser,660-RK73Z2ETTD,0.14,https://www.mouser.com/datasheet/2/219/RK73Z-1825387.pdf,Resistor_SMD:R_1210_3225Metric
 R7,330Ω,Mouser,279-CRGCQ1210J330R,0.13,https://www.mouser.com/datasheet/2/418/4/NG_DS_1773204-3_1-1358553.pdf,Resistor_SMD:R_1210_3225Metric
-SW1,MUTE_REC,Mouser,653-B3FS-1002P,0.58,https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf,Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP
-SW2,MUTE_PLAY,Mouser,653-B3FS-1002P,0.58,https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf,Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP
-SW3,VOL_DN,Mouser,653-B3FS-1002P,0.58,https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf,Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP
-SW4,VOL_UP,Mouser,653-B3FS-1002P,0.58,https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf,Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP
+SW1,MUTE_REC,Mouser,653-B3FS-1002P,0.58,https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf,Omron:SW_SPST_Omron_B3FS-100xP
+SW2,MUTE_PLAY,Mouser,653-B3FS-1002P,0.58,https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf,Omron:SW_SPST_Omron_B3FS-100xP
+SW3,VOL_DN,Mouser,653-B3FS-1002P,0.58,https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf,Omron:SW_SPST_Omron_B3FS-100xP
+SW4,VOL_UP,Mouser,653-B3FS-1002P,0.58,https://www.mouser.com/datasheet/2/307/omron_B3FS-1189765.pdf,Omron:SW_SPST_Omron_B3FS-100xP
