@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# CM108
+# CM108B
 #
-DEF CM108 IC 0 30 Y Y 1 F N
+DEF CM108B IC 0 30 Y Y 1 F N
 F0 "IC" 1350 200 50 H V L CNN
-F1 "CM108" 1350 100 50 H V L CNN
+F1 "CM108B" 1350 100 50 H V L CNN
 F2 "QFP50P900X900X160-48N" 1350 0 50 H I L CNN
 F3 "https://www.cmedia.com.tw/support/download_center/38" 1350 -100 50 H I L CNN
 F4 "CM108 High Integrated USB Audio I/O Controller" 1350 -200 50 H I L CNN "Description"

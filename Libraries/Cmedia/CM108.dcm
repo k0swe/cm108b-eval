@@ -1,6 +1,6 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP CM108
+$CMP CM108B
 D CM108 High Integrated USB Audio I/O Controller
 F https://www.qsl.net/om3cph/sb/CM108_DataSheet_v1.6.pdf
 $ENDCMP

@@ -1,5 +1,5 @@
 (fp_lib_table
   (lib (name Vishay)(type KiCad)(uri ${KIPRJMOD}/Libraries/Vishay)(options "")(descr ""))
   (lib (name CUI)(type KiCad)(uri ${KIPRJMOD}/Libraries/CUI)(options "")(descr ""))
-  (lib (name Omron)(type KiCad)(uri ${KIPRJMOD}/Libraries/Omron)(options "")(descr ""))
+  (lib (name Wurth)(type KiCad)(uri ${KIPRJMOD}/Libraries/Wurth)(options "")(descr ""))
 )

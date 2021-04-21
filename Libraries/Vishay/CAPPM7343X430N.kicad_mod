@@ -1,4 +1,4 @@
-(module CAPPM7343X430N (layer F.Cu) (tedit 607777D0)
+(module CAPPM7343X430N (layer F.Cu) (tedit 60777A2C)
   (descr "Case Code E")
   (tags "Capacitor Polarised")
   (attr smd)
@@ -29,11 +29,6 @@
   (pad 2 smd rect (at 3.1 0) (size 2.35 2.45) (layers F.Cu F.Paste F.Mask))
   (model 293D477X9010E2TE3.stp
     (offset (xyz -3.589999860252811 -3.809999885559184 0.5899999649130583))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 -90))
-  )
-  (model ${KIPRJMOD}/Libraries/293D477X9010E2TE3/293D477X9010E2TE3.stp
-    (offset (xyz -3.5 -3.75 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))
   )
