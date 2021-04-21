@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "CM108B Evaluation Board"
-Date "2021-04-18"
-Rev "4"
+Date "2021-04-21"
+Rev "5"
 Comp "Chris Keller"
 Comment1 "Licensed under Creative Commons CC-BY-4.0"
 Comment2 ""
@@ -854,9 +854,9 @@ Text Label 8650 4350 2    50   ~ 0
 MIC_IN
 Text Label 8650 4450 2    50   ~ 0
 MIC_BIAS
-Text Label 8650 3950 2    50   ~ 0
-AUDIO_L
 Text Label 8650 3850 2    50   ~ 0
+AUDIO_L
+Text Label 8650 3950 2    50   ~ 0
 AUDIO_R
 Text Label 9350 3050 2    50   ~ 0
 MIC_IN
